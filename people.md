@@ -17,9 +17,7 @@ Assistant Professor of Mathematical Sciences, RIT
 ## Group Members
 
 ### Postdoctoral Fellows
-- **Michail Chabanov** - [CCRG Profile](https://ccrg.rit.edu/user/michail.chabanov)
-- **Liwei Ji** - [CCRG Profile](https://ccrg.rit.edu/user/liwei.ji)
-- **Zhenyu Zhu** - [CCRG Profile](https://ccrg.rit.edu/user/zhenyu.zhu)
+*(No postdocs in the group at this time)*
 
 ### Graduate Students
 - **Patricia McMillin** - [CCRG Profile](https://ccrg.rit.edu/user/patricia.mcmillin)
