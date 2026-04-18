@@ -39,4 +39,4 @@ The most powerful part of this loop is the **Self-Improvement** step. Every time
 
 ## Technical Implementation
 
-For a detailed look at the actual protocols we use to implement these loops—including our Long-Term Execution Protocol and Board Interaction rules—see our [Detailed Optimization Guide](./guides/2026-04-18-optimization-guide.md).
+For a detailed look at the actual protocols we use to implement these loops—including our Long-Term Execution Protocol and Board Interaction rules—see our [Detailed Optimization Guide](./guides/2026-04-18-01_optimization-guide.md).
