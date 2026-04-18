@@ -7,6 +7,9 @@ title: Home
 
 Welcome to the research group of **Professor Richard O'Shaughnessy** at the Rochester Institute of Technology. We are dedicated to pushing the boundaries of astrophysics through the study of gravitational waves and multi-messenger signals.
 
+
+**Content warning**: With few exceptions, all information rendered here is AI-generated, harvested from my actual workflow.
+
 ## 🔭 Research Pillars
 
 Our work is centered around three primary areas of investigation:
