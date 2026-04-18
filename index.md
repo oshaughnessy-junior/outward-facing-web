@@ -3,18 +3,34 @@ layout: home
 title: Home
 ---
 
-# Richard O'Shaughnessy
+# The O'Shaughnessy Research Group
 
-**Assistant Professor of Mathematical Sciences**  
-**Program Faculty - PhD Program in Astrophysical Sciences and Technology (AST)**  
-**Rochester Institute of Technology**
+Welcome to the research group of **Professor Richard O'Shaughnessy** at the Rochester Institute of Technology. We are dedicated to pushing the boundaries of astrophysics through the study of gravitational waves and multi-messenger signals.
 
-I am a member of the [LIGO Scientific Collaboration](http://www.ligo.org/), focusing on the discovery and interpretation of gravitational waves produced by merging compact binaries, such as black holes and neutron stars. 
+## 🔭 Research Pillars
 
-My research explores these events as individual occurrences, as populations, and within a broader astrophysical context, connecting stellar astrophysics, binary evolution, and general relativity.
+Our work is centered around three primary areas of investigation:
 
-### Quick Links
+### Gravitational Wave Astronomy with Black Holes
+We explore the dynamics of merging compact binaries, focusing on precessing black hole systems to test general relativity in the strong-field regime and understand the nature of stellar-mass black holes.
+
+### Multimessenger Astrophysics
+By synthesizing gravitational wave detections with electromagnetic observations, we aim to uncover the physics of neutron star mergers and their role as cosmic laboratories for nuclear physics and element synthesis.
+
+### Source Population Modeling and Astrophysics
+We develop sophisticated Bayesian parameter estimation and population synthesis tools to interpret the distribution of compact binary sources, connecting individual events to the broader history of binary evolution.
+
+---
+
+## 📢 Latest News
+{% for post in site.posts limit:3 %}
+  * [{{ post.title }}]({{ site.baseurl }}{{ post.url }}) - {{ post.date | date: "%b %d, %Y" }}
+{% endfor %}
+
+---
+
+## 🔗 Quick Links
+- [Our Team]({{ site.baseurl }}/people/)
+- [About the PI]({{ site.baseurl }}/about/)
+- [Publications](https://ccrgpages.rit.edu/~oshaughn/Richard_OShaughnessy/Home.html)
 - [CCRG Profile](https://ccrg.rit.edu/user/richard.oshaughnessy)
-- [Selected Publications](https://ccrgpages.rit.edu/~oshaughn/Richard_OShaughnessy/Home.html)
-- [About Me]({{ site.baseurl }}/about/)
-- [Blog]({{ site.baseurl }}/blog/)
