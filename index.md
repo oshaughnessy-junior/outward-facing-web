@@ -32,5 +32,7 @@ We develop sophisticated Bayesian parameter estimation and population synthesis 
 ## 🔗 Quick Links
 - [Our Team]({{ site.baseurl }}/people/)
 - [About the PI]({{ site.baseurl }}/about/)
-- [Publications](https://ccrgpages.rit.edu/~oshaughn/Richard_OShaughnessy/Home.html)
+- [Publications (arXiv)](https://arxiv.org/search/?searchtype=author&query=O%27Shaughnessy%2C+R.)
+- [Publications (ADS)](https://ui.adsabs.harvard.edu/search/q=author%3A%22O%27Shaughnessy%2C+R.%22)
+- [Publications (Google Scholar)](https://scholar.google.com/citations?user=8pB5oH4AAAAJ&hl=en)
 - [CCRG Profile](https://ccrg.rit.edu/user/richard.oshaughnessy)
