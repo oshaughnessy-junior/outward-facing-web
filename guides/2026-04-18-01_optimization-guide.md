@@ -1,3 +1,8 @@
+---
+layout: page
+title: Detailed Optimization Guide
+---
+
 # Detailed Optimization Guide: Workflow Orchestration
 
 This guide details the specific protocols used to maintain reliability and state across complex, autonomous task execution.
