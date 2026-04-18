@@ -17,18 +17,18 @@ Assistant Professor of Mathematical Sciences, RIT
 ## Group Members
 
 ### Postdoctoral Fellows
-*(No postdocs in the group at this time)*
+- **Zhenyu Zhu** - [CCRG Profile](https://ccrg.rit.edu/user/zhenyu.zhu)
 
 ### Graduate Students
 - **Patricia McMillin** - [CCRG Profile](https://ccrg.rit.edu/user/patricia.mcmillin)
 - **Rachel Mechum** - [CCRG Profile](https://ccrg.rit.edu/user/rachel.mechum)
-- **Zoe Rosenberg** - [CCRG Profile](https://ccrg.rit.edu/user/zoe.rosberg)
-- **Deanna Fernando** - [CCRG Profile](https://ccrg.rit.edu/user/deannafernando)
-- **Ebiri** - [CCRG Profile](https://ccrg.rit.edu/user/ebiri)
-- **Karl Daningburg** - [CCRG Profile](https://ccrg.rit.edu/user/karldaningburg)
-- **Noah Manning** - [CCRG Profile](https://ccrg.rit.edu/user/noahmanning)
-- **Zainab Mangi** - [CCRG Profile](https://ccrg.rit.edu/user/zainabmangi)
-- **Zeeshan** - [CCRG Profile](https://ccrg.rit.edu/user/zeeshan)
+- **Zoe Rosenberg** - Information pending (CCRG profile not found)
+- **Deanna Fernando** - Information pending (CCRG profile not found)
+- **Ebiri** - Information pending (CCRG profile not found)
+- **Karl Daningburg** - Information pending (CCRG profile not found)
+- **Noah Manning** - Information pending (CCRG profile not found)
+- **Zainab Mangi** - Information pending (CCRG profile not found)
+- **Zeeshan** - Information pending (CCRG profile not found)
 
 ### Alumni
 For a complete list of our alumni and their current positions, see [Alumni Notes](ALUMNI_NOTES.md).
