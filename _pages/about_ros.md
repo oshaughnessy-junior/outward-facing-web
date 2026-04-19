@@ -1,10 +1,4 @@
 ---
-layout: page
-title: About
-permalink: /about/
-nav_order: 1
----
-
 # About Richard O'Shaughnessy
 
 I joined the RIT faculty in 2014. My academic journey began at the **California Institute of Technology**, where I completed my PhD in Physics under the supervision of Kip Thorne.
