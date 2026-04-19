@@ -49,9 +49,7 @@ The agent acted as a dedicated CI engineer. It would:
 
 **The Result**: A validated local CI workflow that drastically reduced the number of round-trips to the main CI system. This shortened the feedback loop for developers and stopped "trivial" config errors from wasting expensive cloud CI minutes.
 
-## The Pattern: Local $
-ightarrow$ Verify $
-ightarrow$ Iterate
+## The Pattern: Local $\to$ Verify $\to$ Iterate
 
 Both of these cases follow the same blueprint: **Test locally, verify rigorously, and iterate autonomously.** By offloading the "grind" to an agent, the human stays in the "Advisor" role—defining the goal and reviewing the result—while the agent handles the friction of the implementation.
 

@@ -25,10 +25,7 @@ A "good" subtask isn't just a fragment of a project; it must be:
 - **Independent**: It doesn't rely on a simultaneous task to be running.
 - **Verifiable**: There is a concrete way to prove it worked (e.g., a file exists, a process is running, an exit code is 0).
 
-For example, "Set up a testing sandbox" is too big. We decompose it into: `Install Software` $
-ightarrow$ `Configure Environment` $
-ightarrow$ `Verify Pool Status` $
-ightarrow$ `Submit Test Job`. If the "Verify Pool" step fails, we know exactly where the break happened, and we don't waste tokens retrying the installation.
+For example, "Set up a testing sandbox" is too big. We decompose it into: `Install Software` $\to$ `Configure Environment` $\to$ `Verify Pool Status` $\to$ `Submit Test Job`. If the "Verify Pool" step fails, we know exactly where the break happened, and we don't waste tokens retrying the installation.
 
 ## 2. Context Scope: Advisors vs. Workers
 
@@ -47,12 +44,9 @@ In an autonomous system, "I think it's done" is a failure. Verification is manda
 
 When things go wrong, we follow a strict failure logic to avoid "infinite retry loops":
 
-1.  **Transient Failures**: (Network blips, busy resources) $
-ightarrow$ Retry with backoff.
-2.  **Repeated Failures**: (Same task fails twice) $
-ightarrow$ **Pivot**. Stop the current approach and try a different method.
-3.  **Hard Blockers**: (Permissions, missing credentials) $
-ightarrow$ **Escalate**. Immediately notify the human; don't guess.
+1.  **Transient Failures**: (Network blips, busy resources) $\to$ Retry with backoff.
+2.  **Repeated Failures**: (Same task fails twice) $\to$ **Pivot**. Stop the current approach and try a different method.
+3.  **Hard Blockers**: (Permissions, missing credentials) $\to$ **Escalate**. Immediately notify the human; don't guess.
 
 The most powerful part of this loop is the **Self-Improvement** step. Every time a human corrects a mistake, the system logs a lesson to its long-term memory. The goal is a system that doesn't just solve the problem, but learns how to solve it _better_ next time.
 
