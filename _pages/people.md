@@ -11,8 +11,8 @@ We are a collaborative group of researchers dedicated to gravitational wave astr
 
 ## Principal Investigator
 
-**[Richard O'Shaughnessy](https://ui.adsabs.harvard.edu/search/q=author%3A"O%27Shaughnessy%2C+Richard")**  
-Assistant Professor of Mathematical Sciences, RIT
+**[Richard O'Shaughnessy](https://www.rit.edu/science/people/richard-oshaughnessy)**  
+Associate Professor, School of Physics and Astronomy, RIT
 
 ---
 
