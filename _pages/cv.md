@@ -1,12 +1,12 @@
 ---
-layout: cv
-permalink: /cv/
+layout: page
 title: CV
-nav: true
-nav_order: 5
-cv_pdf: /assets/pdf/example_pdf.pdf # you can also use external links here
-cv_format: rendercv # options: rendercv, jsonresume
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
-toc:
-  sidebar: left
+permalink: /cv/
+nav_order: 6
 ---
+
+# Curriculum Vitae
+
+[Your CV content goes here. You can upload a PDF in /assets/pdf/ and link to it here.]
+
+[Link to PDF CV](/assets/pdf/cv.pdf)
