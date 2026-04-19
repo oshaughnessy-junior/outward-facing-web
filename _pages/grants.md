@@ -11,7 +11,7 @@ This page lists the research grants and funding awards received by the ROS group
 
 ## Current Funding
 
-*Information coming soon.*
+_Information coming soon._
 
 ## Past Funding
 
@@ -22,4 +22,4 @@ This page lists the research grants and funding awards received by the ROS group
 
 ---
 
-*For inquiries regarding current funding opportunities or collaborations, please contact Professor O'Shaughnessy.*
+_For inquiries regarding current funding opportunities or collaborations, please contact Professor O'Shaughnessy._
