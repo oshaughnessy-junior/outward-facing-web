@@ -2,6 +2,7 @@
 layout: page
 title: Our Team
 permalink: /people/
+nav_order: 2
 ---
 
 # Our Team
