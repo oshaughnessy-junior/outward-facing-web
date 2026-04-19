@@ -1,3 +1,8 @@
+**Series: Getting Started with OpenClaw**
+[Part 1: Model Choices](/outward-facing-web/blog/2026/01_model-choices) $ightarrow$ [Part 2: System Optimization](/outward-facing-web/blog/2026/02_system-optimization) $ightarrow$ [Part 3: Memory System](/outward-facing-web/blog/2026/03_memory-system) $ightarrow$ [Part 4: Example Use Cases](/outward-facing-web/blog/2026/04_example-use-cases)
+
+---
+
 # The Engine Room: Model Choices & Orchestration
 
 One of the biggest challenges in building an autonomous assistant ecosystem isn't just picking the "best" model—it's managing the fragmentation of the AI landscape. Models are updated weekly, pricing shifts, and what worked yesterday is often superseded today.
