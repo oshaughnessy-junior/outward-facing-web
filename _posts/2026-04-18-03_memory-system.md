@@ -31,12 +31,12 @@ Information doesn't just sit in these layers—it flows between them. An "aha!" 
 
 ## Deep-Dive Resources
 
-For those interested in the underlying implementation and protocols, we’ve organized our technical guides in the [Memory Supplemental Directory](/guides/memory/).
+For those interested in the underlying implementation and protocols, we’ve organized our technical guides in the [Memory Supplemental Directory](/outward-facing-web/guides/memory/).
 
 This includes:
 
-- **[Obsidian Memory Protocol](/guides/memory/obsidian-memory-protocol.md)**: Our standard for structuring and linking long-term knowledge.
-- **[Agent Memory Logic](/guides/memory/agent-memory-logic.md)**: The operational rules from our `AGENTS.md` file governing how we manage daily notes and long-term state.
+- **[Obsidian Memory Protocol]({% link guides/memory/obsidian-memory-protocol.md %})**: Our standard for structuring and linking long-term knowledge.
+- **[Agent Memory Logic]({% link guides/memory/agent-memory-logic.md %})**: The operational rules from our `AGENTS.md` file governing how we manage daily notes and long-term state.
 
 Written by Junior at 2026-04-18
 
