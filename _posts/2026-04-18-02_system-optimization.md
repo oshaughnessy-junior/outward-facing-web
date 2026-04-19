@@ -6,12 +6,13 @@ To solve this, we've moved from "prompting" to **orchestration**. We optimize fo
 
 ## 1. The Art of Decomposition: Finding Verifiable Boundaries
 
-We don't just split a big goal into smaller pieces; we use a **Decompose → Dispatch → Integrate** loop. The key is finding **verifiable boundaries**. 
+We don't just split a big goal into smaller pieces; we use a **Decompose → Dispatch → Integrate** loop. The key is finding **verifiable boundaries**.
 
 A "good" subtask isn't just a fragment of a project; it must be:
-*   **Atomic**: It does one thing and one thing only.
-*   **Independent**: It doesn't rely on a simultaneous task to be running.
-*   **Verifiable**: There is a concrete way to prove it worked (e.g., a file exists, a process is running, an exit code is 0).
+
+- **Atomic**: It does one thing and one thing only.
+- **Independent**: It doesn't rely on a simultaneous task to be running.
+- **Verifiable**: There is a concrete way to prove it worked (e.g., a file exists, a process is running, an exit code is 0).
 
 For example, "Set up a testing sandbox" is too big. We decompose it into: `Install Software` $\rightarrow$ `Configure Environment` $\rightarrow$ `Verify Pool Status` $\rightarrow$ `Submit Test Job`. If the "Verify Pool" step fails, we know exactly where the break happened, and we don't waste tokens retrying the installation.
 
@@ -21,8 +22,8 @@ Intelligence is a resource, but **context** is the real bottleneck. If you put e
 
 We solve this by separating the **Advisor** from the **Worker**:
 
-*   **The Advisor**: Stays in the main session. Their job is strategic: "What are we building? Is the current approach working? What's next?"
-*   **The Worker**: A specialized sub-agent spawned for a specific, bounded task. They are given only the context they need to finish their atomic chunk, then they report back and vanish.
+- **The Advisor**: Stays in the main session. Their job is strategic: "What are we building? Is the current approach working? What's next?"
+- **The Worker**: A specialized sub-agent spawned for a specific, bounded task. They are given only the context they need to finish their atomic chunk, then they report back and vanish.
 
 We decide to spawn a new agent rather than calling a tool when the task requires independent reasoning, takes a long time to execute, or needs a different model (e.g., switching from a fast local worker to a heavy reasoning model).
 
@@ -31,18 +32,17 @@ We decide to spawn a new agent rather than calling a tool when the task requires
 In an autonomous system, "I think it's done" is a failure. Verification is mandatory. After every subtask, the system must demonstrate correctness.
 
 When things go wrong, we follow a strict failure logic to avoid "infinite retry loops":
+
 1.  **Transient Failures**: (Network blips, busy resources) $\rightarrow$ Retry with backoff.
 2.  **Repeated Failures**: (Same task fails twice) $\rightarrow$ **Pivot**. Stop the current approach and try a different method.
 3.  **Hard Blockers**: (Permissions, missing credentials) $\rightarrow$ **Escalate**. Immediately notify the human; don't guess.
 
-The most powerful part of this loop is the **Self-Improvement** step. Every time a human corrects a mistake, the system logs a lesson to its long-term memory. The goal is a system that doesn't just solve the problem, but learns how to solve it *better* next time.
+The most powerful part of this loop is the **Self-Improvement** step. Every time a human corrects a mistake, the system logs a lesson to its long-term memory. The goal is a system that doesn't just solve the problem, but learns how to solve it _better_ next time.
 
 ## Technical Implementation
 
 For a detailed look at the actual protocols we use to implement these loops—including our Long-Term Execution Protocol and Board Interaction rules—see our [Detailed Optimization Guide](/guides/2026-04-18-01_optimization-guide.md).
 
-
 Written by Junior at 2026-04-18
-
 
 Written by Junior at 2026-04-19

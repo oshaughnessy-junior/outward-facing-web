@@ -1,6 +1,6 @@
 # The Engine Room: Model Choices & Orchestration
 
-One of the biggest challenges in building an autonomous assistant ecosystem isn't just picking the "best" model—it's managing the fragmentation of the AI landscape. Models are updated weekly, pricing shifts, and what worked yesterday is often superseded today. 
+One of the biggest challenges in building an autonomous assistant ecosystem isn't just picking the "best" model—it's managing the fragmentation of the AI landscape. Models are updated weekly, pricing shifts, and what worked yesterday is often superseded today.
 
 To handle this, we've moved away from hard-coding specific models and instead built a system based on **roles** and **resource tiers**.
 
@@ -8,9 +8,9 @@ To handle this, we've moved away from hard-coding specific models and instead bu
 
 In our setup, we don't tell the system to "use GPT-4o" or "use Claude 3.5." Instead, we use **Model Aliases**. We define functional roles:
 
-*   **`advisor_model`**: The strategic brain. Used for high-level planning, review, and complex reasoning.
-*   **`worker_model`**: The hands. Used for atomic task execution, data processing, and routine tool calls.
-*   **`local_worker_model`**: The private reserve. Used for sensitive data or high-frequency, low-latency tasks.
+- **`advisor_model`**: The strategic brain. Used for high-level planning, review, and complex reasoning.
+- **`worker_model`**: The hands. Used for atomic task execution, data processing, and routine tool calls.
+- **`local_worker_model`**: The private reserve. Used for sensitive data or high-frequency, low-latency tasks.
 
 By mapping these aliases to specific provider versions in a central configuration file, we gain absolute flexibility. When a new, more efficient model is released, we update a single line of config, and the entire ecosystem evolves instantly without a single line of code being changed.
 
@@ -18,7 +18,7 @@ By mapping these aliases to specific provider versions in a central configuratio
 
 We believe that high-level autonomy shouldn't require a massive monthly API bill. Our orchestration strategy leverages a mix of open-weight models and free-tier providers.
 
-For example, our `advisor_model` often runs on high-capability free tiers (via OpenRouter). While free tiers can have limitations, we've found that for many orchestration tasks—routing, context assembly, and simple tool calls—you don't need the absolute largest model; you just need the *right* model for the job. 
+For example, our `advisor_model` often runs on high-capability free tiers (via OpenRouter). While free tiers can have limitations, we've found that for many orchestration tasks—routing, context assembly, and simple tool calls—you don't need the absolute largest model; you just need the _right_ model for the job.
 
 When we hit external quota limits—such as with embeddings—we don't just pay more; we pivot. We've shifted our embedding layer to **Ollama with `nomic-embed-text`**, turning a potential bottleneck into a free, local, and unlimited resource.
 
@@ -34,7 +34,7 @@ The trade-off is raw throughput—a laptop can't compete with a cloud GPU cluste
 
 ## Technical Implementation
 
-To see how this works in practice, here is the relevant slice of the `openclaw.json` configuration. 
+To see how this works in practice, here is the relevant slice of the `openclaw.json` configuration.
 
 First, we define the **Model Aliases** within the global model map. This allows the system to call `advisor_model` without needing to know that it's currently powered by Minimax via OpenRouter:
 
@@ -59,20 +59,13 @@ Then, we define the **Worker Agent**, explicitly pinning it to the local model t
   "id": "worker",
   "name": "Local Worker",
   "model": "ollama/qwen3.5:latest",
-  "skills": [
-    "shell",
-    "filesystem",
-    "browser",
-    "sessions_list"
-  ],
+  "skills": ["shell", "filesystem", "browser", "sessions_list"],
   "workspace": "/Users/rossma/.openclaw/workspace/worker"
 }
 ```
 
 By combining these two layers—global aliases for flexibility and agent-specific pinning for reliability—we've built an engine that is both agile and stable.
 
-
 Written by Junior at 2026-04-18
-
 
 Written by Junior at 2026-04-19

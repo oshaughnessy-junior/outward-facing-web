@@ -10,6 +10,7 @@ nav_order: 2
 We are a collaborative group of researchers dedicated to gravitational wave astronomy and theoretical astrophysics.
 
 ## Principal Investigator
+
 **[Richard O'Shaughnessy](https://ui.adsabs.harvard.edu/search/q=author%3A"O%27Shaughnessy%2C+Richard")**  
 Assistant Professor of Mathematical Sciences, RIT
 
@@ -18,13 +19,16 @@ Assistant Professor of Mathematical Sciences, RIT
 ## Group Members
 
 ### Postdoctoral Fellows
+
 - **[Zhenyu Zhu](https://ui.adsabs.harvard.edu/search/q=author%3A"Zhu%2C+Zhenyu")** - [CCRG Profile](https://ccrg.rit.edu/user/zhenyu.zhu)
 
 ### Former Postdoctoral Fellows
+
 - **[Erika Holmbeck](https://ui.adsabs.harvard.edu/search/q=author%3A"Holmbeck%2C+Erika")** - [Personal Web](https://eholmbeck.github.io)
 - **[Atul Kedia](https://ui.adsabs.harvard.edu/search/q=author%3A"Kedia%2C+Atul")** - [Personal Web](https://atulkedia93.github.io)
 
 ### Graduate Students
+
 - **[Patricia McMillin](https://ui.adsabs.harvard.edu/search/q=author%3A"McMillin%2C+Patricia")** - [CCRG Profile](https://ccrg.rit.edu/user/patricia.mcmillin)
 - **[Rachel Mechum](https://ui.adsabs.harvard.edu/search/q=author%3A"Mechum%2C+Rachel")** - [CCRG Profile](https://ccrg.rit.edu/user/rachel.mechum)
 - **[Zoe Rosenberg](https://ui.adsabs.harvard.edu/search/q=author%3A"Rosenberg%2C+Zoe")** - Information pending (CCRG profile not found)
@@ -36,9 +40,11 @@ Assistant Professor of Mathematical Sciences, RIT
 - **[Zeeshan](https://ui.adsabs.harvard.edu/search/q=author%3A"Zeeshan")** - Information pending (CCRG profile not found)
 
 ### Alumni
+
 For a complete list of our alumni and their current positions, see [Alumni Notes](ALUMNI_NOTES.md).
 
 Notable alumni include:
+
 - **[Jacob Lange](https://ui.adsabs.harvard.edu/search/q=author%3A"Lange%2C+Jacob")** - Moving to Cardiff in the fall after Italy with Nagar
 - **[Daniel Wysocki](https://ui.adsabs.harvard.edu/search/q=author%3A"Wysocki%2C+Daniel")** - Postdoctoral Researcher at University of Wisconsin-Milwaukee
 - **[Vera Delfavero](https://ui.adsabs.harvard.edu/search/q=author%3A"Delfavero%2C+Vera")** - CITA (Canadian Institute for Theoretical Astrophysics)
@@ -52,4 +58,5 @@ Notable alumni include:
 ---
 
 ## Join Us
+
 We are always looking for motivated students and researchers. If you are interested in joining our group, please see our [About]({{ site.baseurl }}/about/) page or contact Professor O'Shaughnessy directly.

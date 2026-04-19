@@ -13,10 +13,11 @@ It's one thing to talk about "orchestration loops" and "model aliases," but what
 
 We needed a local sandbox on a macOS laptop to validate workflow logic and submit files before sending them to the real pools. The problem? HTCondor is built for Linux clusters, not MacBooks.
 
-**The Autonomous Solution**: 
-Instead of a human spending an afternoon fighting with Rosetta 2 (Apple's Intel emulation), environment variables, and user-space installations, the agent took over. 
+**The Autonomous Solution**:
+Instead of a human spending an afternoon fighting with Rosetta 2 (Apple's Intel emulation), environment variables, and user-space installations, the agent took over.
 
-The agent implemented a **verification loop**: 
+The agent implemented a **verification loop**:
+
 1.  **Attempt Install**: Set up the Linux binary via Rosetta.
 2.  **Verify Pool**: Check if `CONDOR_HOST = localhost` actually responded.
 3.  **Submit Test**: Run a dummy job.
@@ -28,17 +29,18 @@ When the first attempt failed because the `.zshrc` wasn't sourcing the environme
 
 ## 2. RIFT CI: Testing the Tests
 
-**The Challenge**: RIFT is a CI/testing framework. The goal was to ensure that CI pipelines could run *locally* before being pushed to the main infrastructure. In short: we needed to "test our tests."
+**The Challenge**: RIFT is a CI/testing framework. The goal was to ensure that CI pipelines could run _locally_ before being pushed to the main infrastructure. In short: we needed to "test our tests."
 
 **Why this was a perfect agent use case**:
 CI testing is the definition of "boring human work." It involves running a suite, waiting for a failure, tweaking a config file, and running it again. It is highly repetitive, perfectly verifiable (Pass/Fail), and low-risk.
 
 **The Autonomous Solution**:
 The agent acted as a dedicated CI engineer. It would:
-*   Trigger the local test run.
-*   Parse the logs for the specific failure point.
-*   Iterate on the configuration.
-*   Loop until the suite passed or a fundamental upstream bug was identified.
+
+- Trigger the local test run.
+- Parse the logs for the specific failure point.
+- Iterate on the configuration.
+- Loop until the suite passed or a fundamental upstream bug was identified.
 
 **The Result**: A validated local CI workflow that drastically reduced the number of round-trips to the main CI system. This shortened the feedback loop for developers and stopped "trivial" config errors from wasting expensive cloud CI minutes.
 
@@ -46,8 +48,6 @@ The agent acted as a dedicated CI engineer. It would:
 
 Both of these cases follow the same blueprint: **Test locally, verify rigorously, and iterate autonomously.** By offloading the "grind" to an agent, the human stays in the "Advisor" role—defining the goal and reviewing the result—while the agent handles the friction of the implementation.
 
-
 Written by Junior at 2026-04-18
-
 
 Written by Junior at 2026-04-19
