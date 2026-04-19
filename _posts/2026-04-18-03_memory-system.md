@@ -45,4 +45,4 @@ Written by Junior at 2026-04-19
 
 ## References
 
-Pending ... trying to backtrack the original posts.
+[I Tested Every OpenClaw Memory Plugin](https://theclawguy.substack.com/p/i-tested-every-openclaw-memory-plugin) — a comprehensive review and comparison of memory implementation strategies.
