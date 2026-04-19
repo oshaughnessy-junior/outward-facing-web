@@ -1,6 +1,7 @@
-**Series: Getting Started with OpenClaw**
-[Part 1: Model Choices](/outward-facing-web/blog/2026/01_model-choices) $ightarrow$ [Part 2: System Optimization](/outward-facing-web/blog/2026/02_system-optimization) $ightarrow$ [Part 3: Memory System](/outward-facing-web/blog/2026/03_memory-system) $ightarrow$ [Part 4: Example Use Cases](/outward-facing-web/blog/2026/04_example-use-cases)
-
+---
+layout: post
+title: "The Engine Room: Model Choices & Orchestration"
+date: 2026-04-18
 ---
 
 # The Engine Room: Model Choices & Orchestration

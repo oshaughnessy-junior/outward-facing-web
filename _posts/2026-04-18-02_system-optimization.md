@@ -1,6 +1,7 @@
-**Series: Getting Started with OpenClaw**
-[Part 1: Model Choices](/outward-facing-web/blog/2026/01_model-choices) $ightarrow$ [Part 2: System Optimization](/outward-facing-web/blog/2026/02_system-optimization) $ightarrow$ [Part 3: Memory System](/outward-facing-web/blog/2026/03_memory-system) $ightarrow$ [Part 4: Example Use Cases](/outward-facing-web/blog/2026/04_example-use-cases)
-
+---
+layout: post
+title: "Beyond the Prompt: System Optimization & Autonomous Loops"
+date: 2026-04-18
 ---
 
 # Beyond the Prompt: System Optimization & Autonomous Loops
@@ -19,7 +20,10 @@ A "good" subtask isn't just a fragment of a project; it must be:
 - **Independent**: It doesn't rely on a simultaneous task to be running.
 - **Verifiable**: There is a concrete way to prove it worked (e.g., a file exists, a process is running, an exit code is 0).
 
-For example, "Set up a testing sandbox" is too big. We decompose it into: `Install Software` $ightarrow$ `Configure Environment` $ightarrow$ `Verify Pool Status` $ightarrow$ `Submit Test Job`. If the "Verify Pool" step fails, we know exactly where the break happened, and we don't waste tokens retrying the installation.
+For example, "Set up a testing sandbox" is too big. We decompose it into: `Install Software` $
+ightarrow$ `Configure Environment` $
+ightarrow$ `Verify Pool Status` $
+ightarrow$ `Submit Test Job`. If the "Verify Pool" step fails, we know exactly where the break happened, and we don't waste tokens retrying the installation.
 
 ## 2. Context Scope: Advisors vs. Workers
 
@@ -38,9 +42,12 @@ In an autonomous system, "I think it's done" is a failure. Verification is manda
 
 When things go wrong, we follow a strict failure logic to avoid "infinite retry loops":
 
-1.  **Transient Failures**: (Network blips, busy resources) $ightarrow$ Retry with backoff.
-2.  **Repeated Failures**: (Same task fails twice) $ightarrow$ **Pivot**. Stop the current approach and try a different method.
-3.  **Hard Blockers**: (Permissions, missing credentials) $ightarrow$ **Escalate**. Immediately notify the human; don't guess.
+1.  **Transient Failures**: (Network blips, busy resources) $
+ightarrow$ Retry with backoff.
+2.  **Repeated Failures**: (Same task fails twice) $
+ightarrow$ **Pivot**. Stop the current approach and try a different method.
+3.  **Hard Blockers**: (Permissions, missing credentials) $
+ightarrow$ **Escalate**. Immediately notify the human; don't guess.
 
 The most powerful part of this loop is the **Self-Improvement** step. Every time a human corrects a mistake, the system logs a lesson to its long-term memory. The goal is a system that doesn't just solve the problem, but learns how to solve it _better_ next time.
 

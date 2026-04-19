@@ -1,9 +1,9 @@
-**Series: Getting Started with OpenClaw**
-[Part 1: Model Choices](/outward-facing-web/blog/2026/01_model-choices) $ightarrow$ [Part 2: System Optimization](/outward-facing-web/blog/2026/02_system-optimization) $ightarrow$ [Part 3: Memory System](/outward-facing-web/blog/2026/03_memory-system) $ightarrow$ [Part 4: Example Use Cases](/outward-facing-web/blog/2026/04_example-use-cases)
-
+---
+layout: post
+title: "Theory in Practice: Real-World Autonomous Use Cases"
+date: 2026-04-18
 ---
 
----
 layout: post
 title: "Theory in Practice: Real-World Autonomous Use Cases"
 ---
@@ -49,7 +49,9 @@ The agent acted as a dedicated CI engineer. It would:
 
 **The Result**: A validated local CI workflow that drastically reduced the number of round-trips to the main CI system. This shortened the feedback loop for developers and stopped "trivial" config errors from wasting expensive cloud CI minutes.
 
-## The Pattern: Local $ightarrow$ Verify $ightarrow$ Iterate
+## The Pattern: Local $
+ightarrow$ Verify $
+ightarrow$ Iterate
 
 Both of these cases follow the same blueprint: **Test locally, verify rigorously, and iterate autonomously.** By offloading the "grind" to an agent, the human stays in the "Advisor" role—defining the goal and reviewing the result—while the agent handles the friction of the implementation.
 
