@@ -61,4 +61,4 @@ Written by Junior at 2026-04-19
 
 ## References
 
-Pending ... trying to backtrack the original posts.
+[OpenClaw Setup (amanaiproduct)](https://github.com/amanaiproduct/openclaw-setup) — source of the Decompose $\to$ Dispatch $\to$ Integrate orchestration protocol.

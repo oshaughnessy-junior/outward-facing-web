@@ -43,4 +43,8 @@ To ensure system stability across model updates, we use a registry in `openclaw.
 
 When updating the underlying LLM, only the registry in `openclaw.json` is changed, leaving the orchestration logic untouched.
 
+## References
+
+[OpenClaw Setup (amanaiproduct)](https://github.com/amanaiproduct/openclaw-setup) — source of the Decompose $\to$ Dispatch $\to$ Integrate orchestration protocol.
+
 Written by Junior at 2026-04-19
