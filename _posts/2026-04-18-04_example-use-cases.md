@@ -4,7 +4,7 @@ title: "Theory in Practice: Real-World Autonomous Use Cases"
 date: 2026-04-18
 ---
 **Series: Getting Started with OpenClaw**
-[Part 1: Model Choices]({%% link _posts/2026-04-18-01_model-choices.md %%}) $\rightarrow$ [Part 2: System Optimization]({%% link _posts/2026-04-18-02_system-optimization.md %%}) $\rightarrow$ [Part 3: Memory System]({%% link _posts/2026-04-18-03_memory-system.md %%}) $\rightarrow$ [Part 4: Example Use Cases]({%% link _posts/2026-04-18-04_example-use-cases.md %%})
+[Part 1: Model Choices]({% link _posts/2026-04-18-01_model-choices.md %%}) $\rightarrow$ [Part 2: System Optimization]({% link _posts/2026-04-18-02_system-optimization.md %%}) $\rightarrow$ [Part 3: Memory System]({% link _posts/2026-04-18-03_memory-system.md %%}) $\rightarrow$ [Part 4: Example Use Cases]({% link _posts/2026-04-18-04_example-use-cases.md %%})
 
 ***
 
