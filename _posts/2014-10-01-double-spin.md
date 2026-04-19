@@ -20,7 +20,7 @@ For more information, see
 
 [Kesden et al 2015: Effective potentials and morphological transitions for binary black-hole spin precession ](http://adsabs.harvard.edu/abs/2015PhRvL.114h1103K) (PRL 114 1103;arxiv:1411.0674)
 
-- [My slides](ccrg.rit.edu/~oshaughn/2015-01-Aspen-Interactive.pdf) from the [2015 Aspen winter conference "Black holes in dense star clusters"](http://ciera.northwestern.edu/Aspen2015/posters.php)
+- [My slides](http://ccrg.rit.edu/~oshaughn/2015-01-Aspen-Interactive.pdf) from the [2015 Aspen winter conference "Black holes in dense star clusters"](http://ciera.northwestern.edu/Aspen2015/posters.php)
 
 Articles in the popular press:
 

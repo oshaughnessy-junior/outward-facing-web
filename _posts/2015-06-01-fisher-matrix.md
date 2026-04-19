@@ -14,4 +14,4 @@ For more information, see
 
 - Paper: [A semianalytic Fisher matrix for precessing binaries with a single significant spin](http://arxiv.org/abs/1509.06581)
 
-- 2015 April APS Meeting: A [Presentation on the method](ccrg.rit.edu/~oshaughn/2015-04-APS-Talk-export.pdf) (April APS 2015)
+- 2015 April APS Meeting: A [Presentation on the method](http://ccrg.rit.edu/~oshaughn/2015-04-APS-Talk-export.pdf) (April APS 2015)

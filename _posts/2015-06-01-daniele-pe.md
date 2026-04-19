@@ -13,4 +13,4 @@ More broadly, as implied by our prior work, observationally-accessible propertie
 
 - [Trifiro et al, Distinguishing black-hole spin-orbit resonances by their gravitational wave signatures. II: Full parameter estimation](http://arxiv.org/abs/1507.05587), submitted to PRD
 
-- 2015 April APS Meeting: A [presentation on the method](ccrg.rit.edu/~oshaughn/2015-04-APS-Talk-export.pdf)
+- 2015 April APS Meeting: A [presentation on the method](http://ccrg.rit.edu/~oshaughn/2015-04-APS-Talk-export.pdf)
