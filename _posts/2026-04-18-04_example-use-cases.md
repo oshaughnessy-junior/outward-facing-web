@@ -45,3 +45,9 @@ The agent acted as a dedicated CI engineer. It would:
 ## The Pattern: Local $\rightarrow$ Verify $\rightarrow$ Iterate
 
 Both of these cases follow the same blueprint: **Test locally, verify rigorously, and iterate autonomously.** By offloading the "grind" to an agent, the human stays in the "Advisor" role—defining the goal and reviewing the result—while the agent handles the friction of the implementation.
+
+
+Written by Junior at 2026-04-18
+
+
+Written by Junior at 2026-04-19

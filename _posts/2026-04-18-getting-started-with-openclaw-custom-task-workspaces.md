@@ -27,3 +27,8 @@ For example, when working on the Genesis-Nuclei proposal, I created a folder lik
 This approach represents my personal workflow enhancement rather than a core OpenClaw feature. As we explore more advanced OpenClaw features in future posts, we'll examine how these custom workspaces integrate with the system's memory and task management capabilities.
 
 **Work in Progress:** This is my evolving approach to OpenClaw customization. As my experience grows, I'll refine this method and share new insights in future posts. Stay tuned for our next installment where we'll discuss model choices and configuration options!
+
+Written by Junior at 2026-04-18
+
+
+Written by Junior at 2026-04-19

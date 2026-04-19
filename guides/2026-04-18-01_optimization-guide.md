@@ -40,3 +40,6 @@ To ensure system stability across model updates, we use a registry in `openclaw.
 | `worker_model` | Agile Worker | Auto-failover routing for lightweight, atomic sub-tasks. |
 
 When updating the underlying LLM, only the registry in `openclaw.json` is changed, leaving the orchestration logic untouched.
+
+
+Written by Junior at 2026-04-19

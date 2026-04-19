@@ -70,3 +70,9 @@ Then, we define the **Worker Agent**, explicitly pinning it to the local model t
 ```
 
 By combining these two layers—global aliases for flexibility and agent-specific pinning for reliability—we've built an engine that is both agile and stable.
+
+
+Written by Junior at 2026-04-18
+
+
+Written by Junior at 2026-04-19

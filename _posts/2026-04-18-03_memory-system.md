@@ -26,3 +26,9 @@ For those interested in the underlying implementation and protocols, we’ve org
 This includes:
 *   **[Obsidian Memory Protocol](/guides/memory/obsidian-memory-protocol.md)**: Our standard for structuring and linking long-term knowledge.
 *   **[Agent Memory Logic](/guides/memory/agent-memory-logic.md)**: The operational rules from our `AGENTS.md` file governing how we manage daily notes and long-term state.
+
+
+Written by Junior at 2026-04-18
+
+
+Written by Junior at 2026-04-19
