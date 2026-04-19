@@ -45,15 +45,15 @@ For a complete list of our alumni and their current positions, see [Alumni Notes
 
 Notable alumni include:
 
-- **[Jacob Lange](https://ui.adsabs.harvard.edu/search/q=author%3A"Lange%2C+Jacob")** - Moving to Cardiff in the fall after Italy with Nagar
-- **[Daniel Wysocki](https://ui.adsabs.harvard.edu/search/q=author%3A"Wysocki%2C+Daniel")** - Postdoctoral Researcher at University of Wisconsin-Milwaukee
-- **[Vera Delfavero](https://ui.adsabs.harvard.edu/search/q=author%3A"Delfavero%2C+Vera")** - CITA (Canadian Institute for Theoretical Astrophysics)
-- **[Marko Ristic](https://ui.adsabs.harvard.edu/search/q=author%3A"Ristic%2C+Marko")** - Postdoctoral Research Fellow at Los Alamos National Laboratory
-- **[Anjali Yelikar](https://ui.adsabs.harvard.edu/search/q=author%3A"Yelikar%2C+Anjali")** - Vanderbilt University
-- **[Kaila Nathaniel](https://ui.adsabs.harvard.edu/search/q=author%3A"Nathaniel%2C+Kaila")** - Astrophysicist at Harvard-Smithsonian Center for Astrophysics
-- **[Katelyn Wagner](https://ui.adsabs.harvard.edu/search/q=author%3A"Wagner%2C+Katelyn")** - PhD student at RIT
-- **[Aasim Jan](https://ui.adsabs.harvard.edu/search/q=author%3A"Jan%2C+Aasim")** - PhD fellow at University of Texas at Austin
-- **[Askold Vilka](https://ui.adsabs.harvard.edu/search/q=author%3A"Vilka%2C+Askold")** - Information pending
+- **[Jacob Lange](https://ui.adsabs.harvard.edu/search/q=author%3A"Lange%2C+Jacob")** - [Personal Site](https://sites.cns.utexas.edu/cgp/people/jacob-lange) | [Google Scholar](https://scholar.google.com/scholar?q=Jacob+Lange) - In Italy with Nagar; moving to Cardiff in the fall.
+- **[Daniel Wysocki](https://ui.adsabs.harvard.edu/search/q=author%3A"Wysocki%2C+Daniel")** - [Personal Site](https://dwysocki.gitlab.io/) | [Google Scholar](https://scholar.google.com/scholar?q=Daniel+Wysocki) - Postdoctoral Researcher at the Center for Gravitation, Cosmology, and Astrophysics, University of Wisconsin-Milwaukee.
+- **[Vera Delfavero](https://ui.adsabs.harvard.edu/search/q=author%3A"Delfavero%2C+Vera")** - [Personal Site](https://science.gsfc.nasa.gov/astrophysics/gravity/bio/vera.delfavero) | [Google Scholar](https://scholar.google.com/scholar?q=Vera+Delfavero) - CITA (Canadian Institute for Theoretical Astrophysics).
+- **[Marko Ristic](https://ui.adsabs.harvard.edu/search/q=author%3A"Ristic%2C+Marko")** - [Personal Site](https://mristic.space/) | [Google Scholar](https://scholar.google.com/scholar?q=Marko+Ristic) - Postdoctoral research fellow at Los Alamos National Laboratory.
+- **[Anjali Yelikar](https://ui.adsabs.harvard.edu/search/q=author%3A"Yelikar%2C+Anjali")** - [Personal Site](https://www.researchgate.net/profile/Anjali-Yelikar) | [Google Scholar](https://scholar.google.com/scholar?q=Anjali+Yelikar) - Vanderbilt University.
+- **[Kaila Nathaniel](https://ui.adsabs.harvard.edu/search/q=author%3A"Nathaniel%2C+Kaila")** - [Personal Site](https://kailanathaniel.com/) | [Google Scholar](https://scholar.google.com/scholar?q=Kaila+Nathaniel) - Astrophysicist in Mission Planning (Science Division) at Harvard-Smithsonian Center for Astrophysics.
+- **[Katelyn Wagner](https://ui.adsabs.harvard.edu/search/q=author%3A"Wagner%2C+Katelyn")** - [Personal Site](https://kjtwagner.github.io/) | [Google Scholar](https://scholar.google.com/scholar?q=Katelyn+Wagner) - Fourth year PhD student in the Astrophysical Sciences and Technology program at Rochester Institute of Technology.
+- **[Aasim Jan](https://ui.adsabs.harvard.edu/search/q=author%3A"Jan%2C+Aasim")** - [Personal Site](https://www.aasimzjan.com/) | [Google Scholar](https://scholar.google.com/scholar?q=Aasim+Jan) - Fifth-year PhD continuing fellow at the Center for Gravitational Physics, University of Texas at Austin.
+- **[Askold Vilka](https://ui.adsabs.harvard.edu/search/q=author%3A"Vilka%2C+Askold")** - [Google Scholar](https://scholar.google.com/scholar?q=Askold+Vilka) - Information not yet confirmed.
 
 ---
 
