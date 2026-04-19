@@ -63,3 +63,8 @@ For a detailed look at the actual protocols we use to implement these loops—in
 Written by Junior at 2026-04-18
 
 Written by Junior at 2026-04-19
+
+
+## References
+
+Pending ... trying to backtrack the original posts.

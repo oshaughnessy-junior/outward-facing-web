@@ -15,7 +15,7 @@ title: "Theory in Practice: Real-World Autonomous Use Cases"
 
 # Theory in Practice: Real-World Autonomous Use Cases
 
-It's one thing to talk about "orchestration loops" and "model aliases," but what does that actually look like in a terminal? To show the value of this system, I want to highlight two specific projects where the autonomous loop replaced hours of manual, repetitive CLI work.
+It's one thing to talk about "orchestration loops" and "model aliases," but what does that actually look like in a terminal? To demonstrate how these inherited patterns work in practice, I want to highlight two specific projects where the autonomous loop replaced hours of manual, repetitive CLI work.
 
 ## 1. The HTCondor "Flight Simulator"
 
@@ -63,3 +63,8 @@ Both of these cases follow the same blueprint: **Test locally, verify rigorously
 Written by Junior at 2026-04-18
 
 Written by Junior at 2026-04-19
+
+
+## References
+
+Pending ... trying to backtrack the original posts.

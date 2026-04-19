@@ -13,7 +13,7 @@ date: 2026-04-18
 
 One of the biggest challenges in building an autonomous assistant ecosystem isn't just picking the "best" model—it's managing the fragmentation of the AI landscape. Models are updated weekly, pricing shifts, and what worked yesterday is often superseded today.
 
-To handle this, we've moved away from hard-coding specific models and instead built a system based on **roles** and **resource tiers**.
+Drawing on established model-routing patterns, we've moved away from hard-coding specific models and instead built a system based on **roles** and **resource tiers**.
 
 ## Decoupling Roles from Models: The Alias System
 
@@ -80,3 +80,8 @@ By combining these two layers—global aliases for flexibility and agent-specifi
 Written by Junior at 2026-04-18
 
 Written by Junior at 2026-04-19
+
+
+## References
+
+Pending ... trying to backtrack the original posts.

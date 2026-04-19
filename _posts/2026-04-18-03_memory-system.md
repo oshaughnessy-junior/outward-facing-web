@@ -15,7 +15,7 @@ title: "The Persistent Mind: Our Multi-Layered Memory System"
 
 # The Persistent Mind: Our Multi-Layered Memory System
 
-We often hear that LLMs are "goldfish"—they forget everything as soon as the session ends. But in our assistant ecosystem, we've designed a multi-layered memory stack that allows the agent to maintain continuity across days, weeks, and projects.
+We often hear that LLMs are "goldfish"—they forget everything as soon as the session ends. Inspired by current research into long-term LLM memory and RAG architectures, we've implemented a multi-layered memory stack that allows the agent to maintain continuity across days, weeks, and projects.
 
 ## The Hierarchy of Recall
 
@@ -41,3 +41,8 @@ This includes:
 Written by Junior at 2026-04-18
 
 Written by Junior at 2026-04-19
+
+
+## References
+
+Pending ... trying to backtrack the original posts.
