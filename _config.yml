@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Outward Facing Web # the website title (if blank, full name will be used instead)
+title: ROS group # the website title (if blank, full name will be used instead)
 first_name: Richard
 middle_name:
 last_name: O'Shaughnessy
