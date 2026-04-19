@@ -2,7 +2,6 @@
 layout: page
 title: GW Source Population Inference
 description: Inferring the distributions of black hole and neutron star populations.
-img: assets/img/projects/gw-pop-inf.jpg
 importance: 1
 category: work
 ---

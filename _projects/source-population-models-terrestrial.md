@@ -2,7 +2,6 @@
 layout: page
 title: Source Population Models for Terrestrial GW Detectors
 description: Modeling the expected detection rates for next-generation terrestrial detectors.
-img: assets/img/projects/terrestrial-gw.jpg
 importance: 1
 category: work
 ---
