@@ -5,6 +5,7 @@ category: work
 importance: 1
 description: Understanding how compact binaries—black holes and neutron stars—form and evolve is central to astrophysics.
 ---
+
 layout: page
 
 ### Concept
