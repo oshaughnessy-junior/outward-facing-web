@@ -23,4 +23,5 @@ Understanding how compact binaries—black holes and neutron stars—form and ev
 
 ### Impact
 
-Introduced iterative inference for compact binary populations with RIT student (Delfavero). Advance new AGN disk model for forming binary black holes with collaborators and an RIT student (Nathaniel).
+- **Population Inference**: Introduced iterative inference for compact binary populations with RIT student (Delfavero).
+- **Model Development**: Advance new AGN disk model for forming binary black holes with collaborators and an RIT student (Nathaniel).

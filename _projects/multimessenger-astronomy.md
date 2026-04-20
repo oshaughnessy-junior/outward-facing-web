@@ -24,4 +24,4 @@ Some of the most violent events in the universe produce both gravitational waves
 
 ### Impact
 
-Advance overall understanding of light emitted from neutron star mergers, and its implications, with RIT students (Ristic, D. Fernando), external undergraduate (Peng), and LANL collaborators.
+- **Astrophysical Insight**: Advance overall understanding of light emitted from neutron star mergers, and its implications, with RIT students (Ristic, D. Fernando), external undergraduate (Peng), and LANL collaborators.

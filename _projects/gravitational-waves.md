@@ -25,4 +25,5 @@ The study of gravitational waves allows us to probe the most extreme environment
 
 ### Impact
 
-Major contributions to gravitational wave observations, both within LIGO Scientific Collaboration (e.g., O3 "populations" paper; O3a catalog; NSBH discovery) and outside (e.g., inferring eccentricity for 190521), with multiple RIT students. Provides science leadership and infrastructure to coalition of partners using our frameworks for source and population inference.
+- **Observational Leadership**: Major contributions to gravitational wave observations, both within LIGO Scientific Collaboration (e.g., O3 "populations" paper; O3a catalog; NSBH discovery) and outside (e.g., inferring eccentricity for 190521), with multiple RIT students.
+- **Infrastructure**: Provides science leadership and infrastructure to coalition of partners using our frameworks for source and population inference.
