@@ -1,9 +1,11 @@
 ---
+layout: page
 title: Gravitational Waves
 category: work
 importance: 1
 description: The study of gravitational waves allows us to probe the most extreme environments in the universe, such as the mergers of black holes and neutron stars.
 ---
+layout: page
 
 ### Concept
 

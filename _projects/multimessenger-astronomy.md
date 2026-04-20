@@ -1,9 +1,11 @@
 ---
+layout: page
 title: Multimessenger Astronomy
 category: work
 importance: 1
 description: Some of the most violent events in the universe produce both gravitational waves and electromagnetic radiation (light).
 ---
+layout: page
 
 ### Concept
 
