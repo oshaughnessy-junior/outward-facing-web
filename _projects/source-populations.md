@@ -6,9 +6,11 @@ description: Understanding how compact binaries—black holes and neutron stars�
 ---
 
 ### Concept
+
 Understanding how compact binaries—black holes and neutron stars—form and evolve is central to astrophysics. By modeling these populations and comparing them to the observed distribution of mergers, we can distinguish between different formation channels, such as isolated binary evolution or dynamical interactions in the dense centers of galaxies.
 
 ### Research Topics
+
 - **Population Inference**: Developing frameworks to reconstruct the distribution of merger properties across the universe.
   - [Wysocki et al., "Reconstructing phenomenological distributions of compact binaries via gravitational wave observations"](https://ui.adsabs.harvard.edu/abs/2019PhRvD.100d3012W/abstract)
 - **AGN Disk Models**: Investigating binary black hole formation near supermassive black holes in active galactic nuclei.
@@ -17,4 +19,5 @@ Understanding how compact binaries—black holes and neutron stars—form and ev
   - [Delfavero et al., "Iteratively Comparing Gravitational-Wave Observations to the Evolution of Massive Stellar Binaries"](https://ui.adsabs.harvard.edu/abs/2023arXiv230305436D/abstract)
 
 ### Impact
+
 Introduced iterative inference for compact binary populations with RIT student (Delfavero). Advance new AGN disk model for forming binary black holes with collaborators and an RIT student (Nathaniel).
