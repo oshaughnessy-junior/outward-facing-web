@@ -32,17 +32,15 @@ Associate Professor, School of Physics and Astronomy, RIT
 
 - **[Patricia McMillin](https://ui.adsabs.harvard.edu/search/q=author%3A"McMillin%2C+Patricia")** - [CCRG Profile](https://ccrg.rit.edu/user/patricia.mcmillin)
 - **[Rachel Mechum](https://ui.adsabs.harvard.edu/search/q=author%3A"Mechum%2C+Rachel")** - [CCRG Profile](https://ccrg.rit.edu/user/rachel.mechum)
-- **[Zoe Rosenberg](https://ui.adsabs.harvard.edu/search/q=author%3A"Rosenberg%2C+Zoe")** - Information pending (CCRG profile not found)
+- **[Zoe Rosenberg](https://ui.adsabs.harvard.edu/search/q=author%3A"Rosenberg%2C+Zoe")** - [CCRG Profile](https://ccrg.rit.edu/user/zoe.rosenberg)
 - **[Deanna Fernando](https://ui.adsabs.harvard.edu/search/q=author%3A"Fernando%2C+Deanna")** - Information pending (CCRG profile not found)
 - **[Ebiri](https://ui.adsabs.harvard.edu/search/q=author%3A"Ebiri")** - Information pending (CCRG profile not found)
 - **[Karl Daningburg](https://ui.adsabs.harvard.edu/search/q=author%3A"Daningburg%2C+Karl")** - Information pending (CCRG profile not found)
-- **[Noah Manning](https://ui.adsabs.harvard.edu/search/q=author%3A"Manning%2C+Noah")** - Information pending (CCRG profile not found)
-- **[Zainab Mangi](https://ui.adsabs.harvard.edu/search/q=author%3A"Mangi%2C+Zainab")** - Information pending (CCRG profile not found)
-- **[Zeeshan](https://ui.adsabs.harvard.edu/search/q=author%3A"Zeeshan")** - Information pending (CCRG profile not found)
+- **[Noah Manning](https://ui.adsabs.harvard.edu/search/q=author%3A"Manning%2C+Noah")** - [RIT Student Govt](https://www.rit.edu/studentgovernment/student-affairs)
+- **[Zainab Mangi](https://ui.adsabs.harvard.edu/search/q=author%3A"Mangi%2C+Zainab")** - [LinkedIn](https://pk.linkedin.com/in/zainab-mangi-246930132)
+- **[Zeeshan](https://ui.adsabs.harvard.edu/search/q=author%3A"Zeeshan")** - [CCRG Profile](https://ccrg.rit.edu/user/muhammad.zeeshan)
 
 ### Alumni
-
-For a complete list of our alumni and their current positions, see [Alumni Notes](ALUMNI_NOTES.md).
 
 Notable alumni include:
 
