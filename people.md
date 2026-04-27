@@ -31,7 +31,6 @@ Assistant Professor of Mathematical Sciences, RIT
 - **Zeeshan** - Information pending (CCRG profile not found)
 
 ### Alumni
-For a complete list of our alumni and their current positions, see [Alumni Notes](ALUMNI_NOTES.md).
 
 Notable alumni include:
 - **Jacob Lange** - Moving to Cardiff in the fall after Italy with Nagar
