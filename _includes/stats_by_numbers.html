@@ -1,0 +1,155 @@
+---
+---
+{%- assign stats_file = site.static_files | where: "path", "/assets/json/ads_stats.json" | first -%}
+
+{% if stats_file %}
+  {%- capture stats_path -%}{{ site.baseurl }}{{ stats_file.path }}{%- endcapture -%}
+  <div id="research-stats">
+    <div class="stats-header">
+      <h3>📊 Research by the Numbers <span class="stats-since">(since {{ site.data.ads_stats.since_year | default: 2010 }})</span></h3>
+    </div>
+
+    <div class="stats-kpis">
+      <div class="kpi">
+        <span class="kpi-number" id="kpi-pubs">{{ site.data.ads_stats.total_publications | default: "—" }}</span>
+        <span class="kpi-label">Publications</span>
+      </div>
+      <div class="kpi">
+        <span class="kpi-number" id="kpi-cites">{{ site.data.ads_stats.total_citations | default: "—" }}</span>
+        <span class="kpi-label">Citations</span>
+      </div>
+    </div>
+
+    <div class="stats-chart-container">
+      <canvas id="stats-chart" height="120"></canvas>
+    </div>
+
+    <p class="stats-footer">
+      Source: <a href="https://ui.adsabs.harvard.edu" target="_blank" rel="noopener">NASA ADS</a>.
+      Last updated: {{ site.data.ads_stats.updated | date: "%B %d, %Y" | default: "—" }}.
+    </p>
+  </div>
+
+  <script>
+  (function () {
+    var statsURL = '{{ stats_path }}';
+    fetch(statsURL)
+      .then(function (r) { return r.json(); })
+      .then(function (data) {
+        // Update KPI numbers
+        var pu = document.getElementById('kpi-pubs');
+        var ci = document.getElementById('kpi-cites');
+        if (pu) pu.textContent = data.total_publications;
+        if (ci) ci.textContent = data.total_citations.toLocaleString();
+
+        // Render Chart.js bar chart
+        var ctx = document.getElementById('stats-chart');
+        if (!ctx) return;
+        var years = data.years.map(function (y) { return String(y); });
+
+        new Chart(ctx, {
+          type: 'bar',
+          data: {
+            labels: years,
+            datasets: [
+              {
+                label: 'Publications',
+                data: data.publications,
+                backgroundColor: 'rgba(54, 162, 235, 0.7)',
+                borderColor: 'rgba(54, 162, 235, 1)',
+                borderWidth: 1,
+                yAxisID: 'yPub',
+              },
+              {
+                label: 'Citations',
+                data: data.citations,
+                type: 'line',
+                borderColor: 'rgba(255, 99, 132, 1)',
+                backgroundColor: 'rgba(255, 99, 132, 0.1)',
+                fill: true,
+                tension: 0.3,
+                yAxisID: 'yCite',
+              }
+            ]
+          },
+          options: {
+            responsive: true,
+            interaction: { mode: 'index', intersect: false },
+            plugins: {
+              legend: { position: 'top' },
+              tooltip: {
+                callbacks: {
+                  footer: function (items) {
+                    var p = items.find(function (i) { return i.dataset.label === 'Publications'; });
+                    var c = items.find(function (i) { return i.dataset.label === 'Citations'; });
+                    return 'Pubs: ' + (p ? p.raw : 0) + '   Cites: ' + (c ? c.raw : 0);
+                  }
+                }
+              }
+            },
+            scales: {
+              yPub: {
+                type: 'linear',
+                position: 'left',
+                title: { display: true, text: 'Publications' },
+                beginAtZero: true,
+                ticks: { stepSize: 1, precision: 0 }
+              },
+              yCite: {
+                type: 'linear',
+                position: 'right',
+                title: { display: true, text: 'Citations' },
+                beginAtZero: true,
+                grid: { drawOnChartArea: false }
+              }
+            }
+          }
+        });
+      })
+      .catch(function (e) { console.warn('ads_stats: failed to load', e); });
+  })();
+  </script>
+
+  <style>
+  #research-stats {
+    margin: 2.5rem 0;
+    padding: 1.5rem;
+    border: 1px solid var(--global-theme-color, #42a5f5);
+    border-radius: 8px;
+    background: rgba(66, 165, 245, 0.04);
+  }
+  .stats-header { margin-bottom: 1rem; }
+  .stats-header h3 { margin: 0; font-size: 1.25rem; }
+  .stats-since { font-size: 0.85rem; font-weight: normal; color: #888; }
+  .stats-kpis {
+    display: flex;
+    gap: 3rem;
+    margin-bottom: 1.5rem;
+  }
+  .kpi { text-align: center; }
+  .kpi-number {
+    display: block;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.1;
+    color: var(--global-theme-color, #42a5f5);
+  }
+  .kpi-label {
+    display: block;
+    font-size: 0.85rem;
+    color: #777;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+  .stats-chart-container { position: relative; height: 160px; }
+  .stats-footer {
+    margin-top: 0.75rem;
+    font-size: 0.75rem;
+    color: #999;
+    text-align: right;
+  }
+  </style>
+
+{% else %}
+  {%- comment %} Stats JSON not generated yet — silently skip {% endcomment -%}
+{% endif %}
