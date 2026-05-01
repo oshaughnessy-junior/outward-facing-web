@@ -1,3 +1,9 @@
+---
+layout: page
+title: Alumni Notes
+permalink: /people/alumni-notes/
+---
+
 # Alumni Information
 
 ## Corrected Alumni Details

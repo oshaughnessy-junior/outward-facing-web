@@ -10,8 +10,15 @@ contact_note: >
   Contact via GitHub or professional channels.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A research group web presence focusing on gravitational waves and astrophysics.
+social:
+  - github: oshaughnessy-junior
+  - google_scholar: Ex8UhncAAAAJ
+  - orcid: 0000-0001-5832-8517
+  - arxiv: oshaughnessy_r_1
+  - linkedin: richard-o-shaughnessy-8751451
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: research, gravitational waves, astrophysics, openclaw
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)

@@ -69,19 +69,21 @@ def get_scholar_citations() -> None:
         author_data = scholarly.fill(author)
     except Exception as e:
         print(
-            f"Error fetching author data from Google Scholar for user ID '{SCHOLAR_USER_ID}': {e}. Please check your internet connection and Scholar user ID."
+            f"Warning: Error fetching author data from Google Scholar for user ID '{SCHOLAR_USER_ID}': {e}. "
+            "The build will continue using existing cached citation data."
         )
-        sys.exit(1)
+        return
 
     if not author_data:
         print(
-            f"Could not fetch author data for user ID '{SCHOLAR_USER_ID}'. Please verify the Scholar user ID and try again."
+            f"Warning: Could not fetch author data for user ID '{SCHOLAR_USER_ID}'. "
+            "The build will continue using existing cached citation data."
         )
-        sys.exit(1)
+        return
 
     if "publications" not in author_data:
-        print(f"No publications found in author data for user ID '{SCHOLAR_USER_ID}'.")
-        sys.exit(1)
+        print(f"Warning: No publications found in author data for user ID '{SCHOLAR_USER_ID}'.")
+        return
 
     for pub in author_data["publications"]:
         try:
