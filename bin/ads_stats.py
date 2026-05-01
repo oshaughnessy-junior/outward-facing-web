@@ -25,9 +25,11 @@ SINCE_YEAR = 2010
 # ADS API token — set ADS_TOKEN in your environment, or hard-code below.
 ADS_TOKEN = os.environ.get("ADS_TOKEN", "")
 
+
 # ── Helpers ───────────────────────────────────────────────────────────────────
 def load_config(config_path: str) -> dict:
     import yaml
+
     with open(config_path) as f:
         return yaml.safe_load(f)
 
@@ -35,6 +37,7 @@ def load_config(config_path: str) -> dict:
 def fetch_ads_json(query: str, token: str, rows: int = 200) -> dict:
     """Hit ADS API v1 /search/query endpoint and return the raw JSON."""
     import requests
+
     headers = {
         "Authorization": f"Bearer {token}",
         "Accept": "application/json",
@@ -72,11 +75,11 @@ def compute_stats(resp_json: dict, since_year: int) -> dict:
 
     # Fill in missing years with zeros
     years = list(range(since_year, current_year + 1))
-    pub_series  = [pub_counts.get(y, 0) for y in years]
+    pub_series = [pub_counts.get(y, 0) for y in years]
     cite_series = [citation_counts.get(y, 0) for y in years]
 
-    total_pubs   = sum(pub_series)
-    total_cites  = sum(cite_series)
+    total_pubs = sum(pub_series)
+    total_cites = sum(cite_series)
 
     return {
         "updated": datetime.now(timezone.utc).isoformat(),
@@ -93,7 +96,9 @@ def compute_stats(resp_json: dict, since_year: int) -> dict:
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Fetch ADS citation stats for O'Shaughnessy")
+    parser = argparse.ArgumentParser(
+        description="Fetch ADS citation stats for O'Shaughnessy"
+    )
     parser.add_argument("--config", default=DEFAULT_CONFIG)
     parser.add_argument("--output", default=DEFAULT_OUTPUT)
     parser.add_argument("--dry-run", action="store_true")
@@ -109,13 +114,16 @@ def main():
         for item in social_list:
             if isinstance(item, dict):
                 social.update(item)
-        scholar    = social.get("google_scholar", "")
-        last_name  = cfg.get("scholar", {}).get("last_name", ["O'Shaughnessy"])[0]
+        scholar = social.get("google_scholar", "")
+        last_name = cfg.get("scholar", {}).get("last_name", ["O'Shaughnessy"])[0]
         first_name = cfg.get("scholar", {}).get("first_name", ["R"])[0]
         author_query = f'author:"{last_name}, {first_name}"'
 
     if not ADS_TOKEN:
-        print("WARNING: ADS_TOKEN not set. API calls will be rate-limited or fail.", file=sys.stderr)
+        print(
+            "WARNING: ADS_TOKEN not set. API calls will be rate-limited or fail.",
+            file=sys.stderr,
+        )
         print("  Export it:  export ADS_TOKEN='your-token-here'", file=sys.stderr)
 
     print(f"Query: {author_query}")

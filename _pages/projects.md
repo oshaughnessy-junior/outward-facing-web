@@ -3,6 +3,12 @@ layout: page
 title: projects
 permalink: /projects/
 description: A growing collection of your cool projects.
+
+## Non-research Activities
+
+- Computing and related work (AI‑enhanced automation, OpenClaw blog posts)
+- Automated code‑generation examples and ports
+- Other technical side‑projects that showcase broader expertise
 nav: true
 nav_order: 4
 display_categories: [work, fun]
