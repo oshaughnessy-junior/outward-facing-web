@@ -1,4 +1,13 @@
 ---
+layout: about
+title: About
+permalink: /about/
+nav_order: 1
+profile:
+  align: right
+  image: prof_pic.jpg
+  more_info: School of Physics and Astronomy, Rochester Institute of Technology
+---
 
 # About Richard O'Shaughnessy
 

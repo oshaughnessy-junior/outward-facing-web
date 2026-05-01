@@ -15,7 +15,7 @@ import json
 import os
 import sys
 import time
-from datetime import datetime
+from datetime import datetime, timezone
 
 # ── Config ─────────────────────────────────────────────────────────────────────
 DEFAULT_CONFIG = "_config.yml"
@@ -33,7 +33,7 @@ def load_config(config_path: str) -> dict:
 
 
 def fetch_ads_json(query: str, token: str, rows: int = 200) -> dict:
-    """Hit ADS API v1 /search/docs endpoint and return the raw JSON."""
+    """Hit ADS API v1 /search/query endpoint and return the raw JSON."""
     import requests
     headers = {
         "Authorization": f"Bearer {token}",
@@ -46,7 +46,7 @@ def fetch_ads_json(query: str, token: str, rows: int = 200) -> dict:
         "sort": "citation_count desc",
     }
     resp = requests.get(
-        "https://api.adsabs.harvard.edu/v1/search/docs",
+        "https://api.adsabs.harvard.edu/v1/search/query",
         headers=headers,
         params=params,
         timeout=30,
@@ -64,7 +64,7 @@ def compute_stats(resp_json: dict, since_year: int) -> dict:
     pub_counts = {}
     citation_counts = {}
     for doc in docs:
-        yr = doc.get("year")
+        yr = int(doc.get("year", 0))
         if yr is None or yr < since_year:
             continue
         pub_counts[yr] = pub_counts.get(yr, 0) + 1
@@ -79,7 +79,7 @@ def compute_stats(resp_json: dict, since_year: int) -> dict:
     total_cites  = sum(cite_series)
 
     return {
-        "updated": datetime.utcnow().isoformat() + "Z",
+        "updated": datetime.now(timezone.utc).isoformat(),
         "since_year": since_year,
         "years": years,
         "publications": pub_series,
@@ -104,7 +104,12 @@ def main():
         author_query = 'author:"O\'Shaughnessy, R."'
     else:
         cfg = load_config(args.config)
-        scholar = cfg.get("social", {}).get("google_scholar", "")
+        social_list = cfg.get("social", [])
+        social = {}
+        for item in social_list:
+            if isinstance(item, dict):
+                social.update(item)
+        scholar    = social.get("google_scholar", "")
         last_name  = cfg.get("scholar", {}).get("last_name", ["O'Shaughnessy"])[0]
         first_name = cfg.get("scholar", {}).get("first_name", ["R"])[0]
         author_query = f'author:"{last_name}, {first_name}"'

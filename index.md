@@ -27,6 +27,17 @@ We develop sophisticated Bayesian parameter estimation and population synthesis 
 
 ---
 
+## 📊 By the Numbers
+
+|  |  |
+|---|---|
+| **Publications** | 174 (since 2010) |
+| **Citations** | 111,788 (since 2010) |
+| **LIGO-Virgo-KAGRA** | Member of the Collaboration |
+| **GWTC Catalogs** | Co-author on GWTC-1, GWTC-2, GWTC-3 population papers |
+
+---
+
 ## 📢 Latest News
 
 {% for post in site.posts limit:3 %}
