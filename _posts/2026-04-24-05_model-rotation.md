@@ -99,11 +99,11 @@ This means our fallback chain evolves automatically as Google releases new model
 
 Together, these three layers create a resilient system:
 
-| Layer | Purpose | Mechanism |
-|-------|---------|-----------|
-| **Model Relay** | Optimal API key selection | Real-time throughput monitoring |
-| **Local Rotation** | Privacy + zero-cost + speed | HF Leaderboard scoring + RAM budgeting |
-| **Cloud Fallback** | Never run out of options | API-driven discovery + automatic config |
+| Layer              | Purpose                     | Mechanism                               |
+| ------------------ | --------------------------- | --------------------------------------- |
+| **Model Relay**    | Optimal API key selection   | Real-time throughput monitoring         |
+| **Local Rotation** | Privacy + zero-cost + speed | HF Leaderboard scoring + RAM budgeting  |
+| **Cloud Fallback** | Never run out of options    | API-driven discovery + automatic config |
 
 When a request comes in, OpenClaw tries them in order:
 

@@ -9,6 +9,7 @@ permalink: /people/
 We are a collaborative group of researchers dedicated to gravitational wave astronomy and theoretical astrophysics.
 
 ## Principal Investigator
+
 **Richard O'Shaughnessy**  
 Assistant Professor of Mathematical Sciences, RIT
 
@@ -17,9 +18,11 @@ Assistant Professor of Mathematical Sciences, RIT
 ## Group Members
 
 ### Postdoctoral Fellows
+
 - **Zhenyu Zhu** - [CCRG Profile](https://ccrg.rit.edu/user/zhenyu.zhu)
 
 ### Graduate Students
+
 - **Patricia McMillin** - [CCRG Profile](https://ccrg.rit.edu/user/patricia.mcmillin)
 - **Rachel Mechum** - [CCRG Profile](https://ccrg.rit.edu/user/rachel.mechum)
 - **Zoe Rosenberg** - Information pending (CCRG profile not found)
@@ -33,6 +36,7 @@ Assistant Professor of Mathematical Sciences, RIT
 ### Alumni
 
 Notable alumni include:
+
 - **Jacob Lange** - Moving to Cardiff in the fall after Italy with Nagar
 - **Daniel Wysocki** - Postdoctoral Researcher at University of Wisconsin-Milwaukee
 - **Vera Delfavero** - CITA (Canadian Institute for Theoretical Astrophysics)
@@ -46,4 +50,5 @@ Notable alumni include:
 ---
 
 ## Join Us
+
 We are always looking for motivated students and researchers. If you are interested in joining our group, please see our [About]({{ site.baseurl }}/about/) page or contact Professor O'Shaughnessy directly.
