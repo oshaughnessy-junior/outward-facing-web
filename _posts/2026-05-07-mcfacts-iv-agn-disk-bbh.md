@@ -17,6 +17,7 @@ Binary black hole (BBH) mergers embedded in the accretion disks of active galact
 This work utilizes the Monte Carlo For AGN Channel Testing and Simulation (`McFACTS`) code to predict the bolometric luminosities of jets and shocks associated with LVK-detectable BBH mergers in AGN disks. The authors introduce a new capability to simultaneously generate distributions of both GW observables and their corresponding EM luminosities.
 
 Key findings include:
+
 1. **Migration Traps:** Dense, Sirko-Goodman-like AGN disks efficiently drive hierarchical mergers, resulting in high-mass, high-spin remnants capable of powering observable EM counterparts over multiple merger generations.
 2. **Observability Thresholds:** Mergers in sufficiently dense disks with a chirp mass $\mathcal{M} \gtrsim 40 M_\odot$ are highly likely to produce observable EM counterparts, provided the disks are sufficiently long-lived and the initial black hole mass function is top-heavy.
 
