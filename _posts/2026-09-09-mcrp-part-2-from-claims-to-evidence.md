@@ -92,7 +92,7 @@ An agent reader could use the following checklist for one claim release:
 
 ## Join the discussion
 
-If you want to help shape a practical community around self-organizing agentic review, use the [outward-facing-web issue tracker](https://github.com/oshaughnessy-junior/outward-facing-web/issues) to share a public or synthetic worked claim/review record, or a specific critique of this proposal. Useful records identify the claim version, acceptance-contract version, evidence-set and release digests, the agent observations, the human role, the checks that passed, and any unresolved dependency or blocked transition. Specific counterexamples and narrower alternatives are especially welcome.
+If you want to help shape a practical community around self-organizing agentic review, use the [research discussion form](https://github.com/oshaughnessy-junior/outward-facing-web/issues/new?template=3_research_discussion.yml) to share a public or synthetic worked claim/review record, or a specific critique of this proposal. Useful records identify the claim version, acceptance-contract version, evidence-set and release digests, the agent observations, the human role, the checks that passed, and any unresolved dependency or blocked transition. Specific counterexamples and narrower alternatives are especially welcome.
 
 These are discussion inputs for improving the design, not scientific acceptance, peer-review decisions, or submissions to a new service. The tracker is an existing discussion route; this post does not claim that a running autonomous review network or external submission service exists.
 

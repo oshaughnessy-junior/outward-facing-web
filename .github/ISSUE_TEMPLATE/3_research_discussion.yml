@@ -1,0 +1,43 @@
+name: Research discussion
+description: Share a public or synthetic claim/review record or a specific research critique.
+title: "[Feedback] Research discussion: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This tracker is for discussion inputs about research posts and workflows. Submissions are not scientific acceptance, endorsement, or peer-review decisions, and this repository does not operate an autonomous adjudication service.
+  - type: textarea
+    id: topic
+    attributes:
+      label: Topic, paper, or post URL
+      description: Identify the topic and link the relevant public paper or post.
+    validations:
+      required: true
+  - type: textarea
+    id: claim_review_record
+    attributes:
+      label: Public or synthetic claim/review record
+      description: Share the bounded record, or describe the specific claim and evidence relation under discussion.
+    validations:
+      required: true
+  - type: textarea
+    id: checks_references
+    attributes:
+      label: Checks performed and primary references
+      description: List reproducibility, provenance, or other checks and link the primary sources used.
+    validations:
+      required: true
+  - type: textarea
+    id: unresolved_dependencies
+    attributes:
+      label: Unresolved dependencies or limits
+      description: Identify missing inputs, uncertain boundaries, caveats, or limitations.
+    validations:
+      required: true
+  - type: textarea
+    id: question_next_check
+    attributes:
+      label: Question or proposed next check
+      description: State the concrete question, critique, or next check that would make the discussion useful.
+    validations:
+      required: true
