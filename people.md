@@ -11,7 +11,7 @@ We are a collaborative group of researchers dedicated to gravitational wave astr
 ## Principal Investigator
 
 **Richard O'Shaughnessy**  
-Assistant Professor of Mathematical Sciences, RIT
+Associate Professor, Applied Statistics, School of Physics and Astronomy, RIT
 
 ---
 

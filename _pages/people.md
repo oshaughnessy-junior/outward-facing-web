@@ -6,14 +6,12 @@ nav: true
 nav_order: 2
 ---
 
-# Our Team
-
 We are a collaborative group of researchers dedicated to gravitational wave astronomy and theoretical astrophysics.
 
 ## Principal Investigator
 
 **[Richard O'Shaughnessy](https://www.rit.edu/science/people/richard-oshaughnessy)**  
-Associate Professor, School of Physics and Astronomy, RIT
+Associate Professor, Applied Statistics, School of Physics and Astronomy, RIT
 
 ---
 
