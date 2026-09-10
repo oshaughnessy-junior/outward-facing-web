@@ -21,7 +21,7 @@ This new paper, led by a CUNY graduate student (Emily McPike), focuses on one sp
 
 **The problem:** We haven't had good ways to predict what those light signals would look like, or which mergers we'd actually be able to see.
 
-**The solution:** This paper uses [McFACTS](https://www.github.com/mcfacts/mcfacts) — Monte Carlo For AGN Channel Testing and Simulation — to model both the gravitational-wave signals *and* the light we'd expect from these mergers.
+**The solution:** This paper uses [McFACTS](https://www.github.com/mcfacts/mcfacts) — Monte Carlo For AGN Channel Testing and Simulation — to model both the gravitational-wave signals _and_ the light we'd expect from these mergers.
 
 Key findings:
 
