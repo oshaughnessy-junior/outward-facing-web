@@ -45,27 +45,47 @@ permalink: /people/alumni-notes/
 
 ### Kaila Nathaniel
 
-- **Current Position:** Astrophysicist in Mission Planning (Science Division) at Harvard-Smithsonian Center for Astrophysics.
+- **Current Position:** Data scientist at Capital One.
+- **RIT Degree:** Ph.D., Astrophysical Sciences and Technology.
 - **Google Scholar:** https://scholar.google.com/scholar?q=Kaila+Nathaniel
 - **ADS Search:** https://ui.adsabs.harvard.edu/search/q=author%3A%22Kaila+Nathaniel%22
 - **Personal Site:** https://kailanathaniel.com/
 
 ### Katelyn Wagner
 
-- **Current Position:** Fourth year PhD student in the Astrophysical Sciences and Technology program at Rochester Institute of Technology.
+- **Alumni Status:** Ph.D. graduate, Astrophysical Sciences and Technology (2025).
 - **Google Scholar:** https://scholar.google.com/scholar?q=Katelyn+Wagner
 - **ADS Search:** https://ui.adsabs.harvard.edu/search/q=author%3A%22Katelyn+Wagner%22
 - **Personal Site:** https://kjtwagner.github.io/
 
 ### Aasim Jan
 
-- **Current Position:** Fifth-year PhD continuing fellow at the Center for Gravitational Physics, University of Texas at Austin.
+- **Current Position:** Postdoctoral research fellow at TAPIR, Caltech.
 - **Google Scholar:** https://scholar.google.com/scholar?q=Aasim+Jan
 - **ADS Search:** https://ui.adsabs.harvard.edu/search/q=author%3A%22Aasim+Jan%22
 - **Personal Site:** https://www.aasimzjan.com/
 
-### Askold Vilka
+### Askold Vilkha
 
-- **Current Position:** Information not yet confirmed.
-- **Google Scholar:** https://scholar.google.com/scholar?q=Askold+Vilka
-- **ADS Search:** https://ui.adsabs.harvard.edu/search/q=author%3A%22Askold+Vilka%22
+- **Current Position:** Ph.D. student and research/teaching assistant at AGH University of Krakow in Poland.
+- **Institutional Profile:** https://skos.agh.edu.pl/osoba/askold-vilkha-11162.html
+
+### Muhammad Zeeshan
+
+- **Alumni Status:** M.S. graduate, Astrophysical Sciences and Technology (2023).
+- **RIT Thesis:** https://repository.rit.edu/theses/11574/
+
+### Karl Daningburg
+
+- **Alumni Status:** Ph.D. graduate, Mathematical Modeling (2026).
+- **RIT Dissertation:** https://repository.rit.edu/theses/12708/
+
+### Noah Manning
+
+- **Alumni Status:** RIT M.S. graduate.
+
+### Marc Ebiri
+
+- **Current Position:** Physics Ph.D. student at the University of Texas Rio Grande Valley.
+- **RIT Degree:** M.S., Physics (2026).
+- **RIT Thesis:** https://repository.rit.edu/theses/12735/

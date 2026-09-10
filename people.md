@@ -27,11 +27,7 @@ Assistant Professor of Mathematical Sciences, RIT
 - **Rachel Mechum** - [CCRG Profile](https://ccrg.rit.edu/user/rachel.mechum)
 - **Zoe Rosenberg** - Information pending (CCRG profile not found)
 - **Deanna Fernando** - Information pending (CCRG profile not found)
-- **Ebiri** - Information pending (CCRG profile not found)
-- **Karl Daningburg** - Information pending (CCRG profile not found)
-- **Noah Manning** - Information pending (CCRG profile not found)
 - **Zainab Mangi** - Information pending (CCRG profile not found)
-- **Zeeshan** - Information pending (CCRG profile not found)
 
 ### Alumni
 
@@ -42,10 +38,14 @@ Notable alumni include:
 - **Vera Delfavero** - CITA (Canadian Institute for Theoretical Astrophysics)
 - **Marko Ristic** - Postdoctoral Research Fellow at Los Alamos National Laboratory
 - **Anjali Yelikar** - Vanderbilt University
-- **Kaila Nathaniel** - Astrophysicist at Harvard-Smithsonian Center for Astrophysics
-- **Katelyn Wagner** - PhD student at RIT
-- **Aasim Jan** - PhD fellow at University of Texas at Austin
-- **Askold Vilka** - Information pending
+- **[Kaila Nathaniel](https://kailanathaniel.com/)** - Data scientist at Capital One; RIT Astrophysical Sciences and Technology Ph.D. graduate.
+- **[Katelyn Wagner](https://repository.rit.edu/theses/12336/)** - RIT Astrophysical Sciences and Technology Ph.D. graduate (2025).
+- **[Aasim Jan](https://www.aasimzjan.com/)** - Postdoctoral research fellow at TAPIR, Caltech.
+- **[Askold Vilkha](https://skos.agh.edu.pl/osoba/askold-vilkha-11162.html)** - Ph.D. student and research/teaching assistant at AGH University of Krakow in Poland.
+- **[Muhammad Zeeshan](https://repository.rit.edu/theses/11574/)** - RIT Astrophysical Sciences and Technology M.S. graduate (2023).
+- **[Karl Daningburg](https://repository.rit.edu/theses/12708/)** - RIT Mathematical Modeling Ph.D. graduate (2026).
+- **Noah Manning** - RIT M.S. graduate.
+- **[Marc Ebiri](https://repository.rit.edu/theses/12735/)** - RIT Physics M.S. graduate (2026); now a Physics Ph.D. student at the University of Texas Rio Grande Valley.
 
 ---
 

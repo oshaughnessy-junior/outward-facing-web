@@ -34,11 +34,7 @@ Associate Professor, School of Physics and Astronomy, RIT
 - **[Rachel Mechum](https://ui.adsabs.harvard.edu/search/q=author%3A"Mechum%2C+Rachel")** - [CCRG Profile](https://ccrg.rit.edu/user/rachel.mechum)
 - **[Zoe Rosenberg](https://ui.adsabs.harvard.edu/search/q=author%3A"Rosenberg%2C+Zoe")** - [CCRG Profile](https://ccrg.rit.edu/user/zoe.rosenberg)
 - **[Deanna Fernando](https://ui.adsabs.harvard.edu/search/q=author%3A"Fernando%2C+Deanna")** - Information pending (CCRG profile not found)
-- **[Ebiri](https://ui.adsabs.harvard.edu/search/q=author%3A"Ebiri")** - Information pending (CCRG profile not found)
-- **[Karl Daningburg](https://ui.adsabs.harvard.edu/search/q=author%3A"Daningburg%2C+Karl")** - Information pending (CCRG profile not found)
-- **[Noah Manning](https://ui.adsabs.harvard.edu/search/q=author%3A"Manning%2C+Noah")** - [RIT Student Govt](https://www.rit.edu/studentgovernment/student-affairs)
 - **[Zainab Mangi](https://ui.adsabs.harvard.edu/search/q=author%3A"Mangi%2C+Zainab")** - [LinkedIn](https://pk.linkedin.com/in/zainab-mangi-246930132)
-- **[Zeeshan](https://ui.adsabs.harvard.edu/search/q=author%3A"Zeeshan")** - [CCRG Profile](https://ccrg.rit.edu/user/muhammad.zeeshan)
 
 ### Alumni
 
@@ -49,10 +45,14 @@ Notable alumni include:
 - **[Vera Delfavero](https://ui.adsabs.harvard.edu/search/q=author%3A"Delfavero%2C+Vera")** - [Personal Site](https://science.gsfc.nasa.gov/astrophysics/gravity/bio/vera.delfavero) | [Google Scholar](https://scholar.google.com/scholar?q=Vera+Delfavero) - CITA (Canadian Institute for Theoretical Astrophysics).
 - **[Marko Ristic](https://ui.adsabs.harvard.edu/search/q=author%3A"Ristic%2C+Marko")** - [Personal Site](https://mristic.space/) | [Google Scholar](https://scholar.google.com/scholar?q=Marko+Ristic) - Postdoctoral research fellow at Los Alamos National Laboratory.
 - **[Anjali Yelikar](https://ui.adsabs.harvard.edu/search/q=author%3A"Yelikar%2C+Anjali")** - [Personal Site](https://www.researchgate.net/profile/Anjali-Yelikar) | [Google Scholar](https://scholar.google.com/scholar?q=Anjali+Yelikar) - Vanderbilt University.
-- **[Kaila Nathaniel](https://ui.adsabs.harvard.edu/search/q=author%3A"Nathaniel%2C+Kaila")** - [Personal Site](https://kailanathaniel.com/) | [Google Scholar](https://scholar.google.com/scholar?q=Kaila+Nathaniel) - Astrophysicist in Mission Planning (Science Division) at Harvard-Smithsonian Center for Astrophysics.
-- **[Katelyn Wagner](https://ui.adsabs.harvard.edu/search/q=author%3A"Wagner%2C+Katelyn")** - [Personal Site](https://kjtwagner.github.io/) | [Google Scholar](https://scholar.google.com/scholar?q=Katelyn+Wagner) - Fourth year PhD student in the Astrophysical Sciences and Technology program at Rochester Institute of Technology.
-- **[Aasim Jan](https://ui.adsabs.harvard.edu/search/q=author%3A"Jan%2C+Aasim")** - [Personal Site](https://www.aasimzjan.com/) | [Google Scholar](https://scholar.google.com/scholar?q=Aasim+Jan) - Fifth-year PhD continuing fellow at the Center for Gravitational Physics, University of Texas at Austin.
-- **[Askold Vilka](https://ui.adsabs.harvard.edu/search/q=author%3A"Vilka%2C+Askold")** - [Google Scholar](https://scholar.google.com/scholar?q=Askold+Vilka) - Information not yet confirmed.
+- **[Kaila Nathaniel](https://kailanathaniel.com/)** - Data scientist at Capital One; RIT Astrophysical Sciences and Technology Ph.D. graduate.
+- **[Katelyn Wagner](https://repository.rit.edu/theses/12336/)** - RIT Astrophysical Sciences and Technology Ph.D. graduate (2025).
+- **[Aasim Jan](https://www.aasimzjan.com/)** - Postdoctoral research fellow at TAPIR, Caltech.
+- **[Askold Vilkha](https://skos.agh.edu.pl/osoba/askold-vilkha-11162.html)** - Ph.D. student and research/teaching assistant at AGH University of Krakow in Poland.
+- **[Muhammad Zeeshan](https://repository.rit.edu/theses/11574/)** - RIT Astrophysical Sciences and Technology M.S. graduate (2023).
+- **[Karl Daningburg](https://repository.rit.edu/theses/12708/)** - RIT Mathematical Modeling Ph.D. graduate (2026).
+- **Noah Manning** - RIT M.S. graduate.
+- **[Marc Ebiri](https://repository.rit.edu/theses/12735/)** - RIT Physics M.S. graduate (2026); now a Physics Ph.D. student at the University of Texas Rio Grande Valley.
 
 ---
 
