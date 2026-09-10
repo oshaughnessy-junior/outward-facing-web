@@ -1,0 +1,20 @@
+# Public post slugs only. Unlisted posts remain in the astrophysics fallback lane.
+ai:
+  # Jekyll post.slug excludes the YYYY-MM-DD- filename prefix.
+  - 01_model-choices
+  - 02_system-optimization
+  - 03_memory-system
+  - 04_example-use-cases
+  - getting-started-with-openclaw-custom-task-workspaces
+  - 05_model-rotation
+  - agent-meetings-self-improvement-loop
+  - what-exactly-did-we-review
+  - openclaw-as-an-agent-team
+  - mcrp-part-2-from-claims-to-evidence
+astro:
+  - population-properties-of-binary-black-holes-with-eccentricity
+  - gw200105-eccentricity
+  - gw200105-eccentricity-ns-bh-binary
+  - mcfacts-iv-agn-disk-bbh
+  - simulation-management-rift-supernu
+  - gwtc5-binary-black-hole-population
