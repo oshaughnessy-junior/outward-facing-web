@@ -5,10 +5,7 @@ permalink: /contact/
 nav_order: 9
 ---
 
-# Contact
+For research questions or collaboration, use the contact details in [Richard O’Shaughnessy’s RIT directory entry](https://www.rit.edu/directory/rossma-richard-o-shaughnessy).
 
-If you have any questions or would like to collaborate, please feel free to reach out!
-
-- **Email**: [Insert Email Here]
-- **GitHub**: [oshaughnessy-junior](https://github.com/oshaughnessy-junior)
-- **Twitter/X**: [Insert Handle Here]
+- [Richard’s personal homepage](https://ccrgpages.rit.edu/~oshaughn/Richard_OShaughnessy/Home.html)
+- [Group repositories]({{ '/repositories/' | relative_url }})

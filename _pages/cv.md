@@ -1,12 +1,10 @@
 ---
 layout: page
-title: CV
+title: Curriculum Vitae
 permalink: /cv/
 nav_order: 7
 ---
 
-# Curriculum Vitae
+[Richard O’Shaughnessy’s CV (PDF)](https://ccrgpages.rit.edu/~oshaughn/CV.pdf)
 
-[Your CV content goes here. You can upload a PDF in /assets/pdf/ and link to it here.]
-
-[Link to PDF CV](/assets/pdf/cv.pdf)
+See also [Richard’s personal homepage](https://ccrgpages.rit.edu/~oshaughn/Richard_OShaughnessy/Home.html) and [RIT faculty directory](https://www.rit.edu/directory/rossma-richard-o-shaughnessy).

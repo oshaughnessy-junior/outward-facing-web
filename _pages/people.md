@@ -10,7 +10,8 @@ We are a collaborative group of researchers dedicated to gravitational wave astr
 
 ## Principal Investigator
 
-**[Richard O'Shaughnessy](https://www.rit.edu/science/directory/rossma-richard-o-shaughnessy)**
+**Richard O'Shaughnessy** — [RIT directory](https://www.rit.edu/directory/rossma-richard-o-shaughnessy) · [personal homepage](https://ccrgpages.rit.edu/~oshaughn/Richard_OShaughnessy/Home.html)
+
 Associate Professor, School of Physics and Astronomy, RIT
 
 ---

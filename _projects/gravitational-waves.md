@@ -1,4 +1,5 @@
 ---
+layout: page
 title: Gravitational Waves
 category: work
 importance: 1

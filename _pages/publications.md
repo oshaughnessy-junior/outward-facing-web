@@ -18,3 +18,7 @@ nav_order: 3
 {% bibliography %}
 
 </div>
+
+{% if site.data.publications_status %}
+<p class="small text-muted">Metadata checked for {{ site.data.publications_status.records_checked | size }} arXiv records on {{ site.data.publications_status.last_successful_refresh | date: "%B %-d, %Y" }}. This records the latest update batch; it is not a completeness claim for the full bibliography.</p>
+{% endif %}

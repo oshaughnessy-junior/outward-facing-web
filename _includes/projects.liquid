@@ -1,5 +1,9 @@
 <div class="col">
-  <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
+  {% if project.redirect %}
+    {% assign project_link = project.redirect %}
+  {% else %}
+    {% assign project_link = project.url | relative_url %}
+  {% endif %}
     <div class="card h-100 hoverable">
       {% if project.img %}
         {%
@@ -12,13 +16,13 @@
         %}
       {% endif %}
       <div class="card-body">
-        <h2 class="card-title">{{ project.title }}</h2>
+        <h2 class="card-title"><a href="{{ project_link }}">{{ project.title }}</a></h2>
         <p class="card-text">{{ project.description }}</p>
         <div class="row ml-1 mr-1 p-0">
           {% if project.github %}
             <div class="github-icon">
               <div class="icon" data-toggle="tooltip" title="Code Repository">
-                <a href="{{ project.github }}"><i class="fa-brands fa-github gh-icon"></i></a>
+                    <a href="{{ project.github }}"><i class="fa-brands fa-github gh-icon" aria-hidden="true"></i> Code repository</a>
               </div>
               {% if project.github_stars %}
                 <span class="stars" data-toggle="tooltip" title="GitHub Stars">
@@ -31,5 +35,4 @@
         </div>
       </div>
     </div>
-  </a>
 </div>

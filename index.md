@@ -1,9 +1,10 @@
 ---
 layout: page
+permalink: /
 title: Home
 ---
 
-# The O'Shaughnessy Research Group
+## The O'Shaughnessy Research Group
 
 Welcome to the research group of **Professor Richard O'Shaughnessy** at the Rochester Institute of Technology. We are dedicated to pushing the boundaries of astrophysics through the study of gravitational waves and multi-messenger signals.
 
@@ -51,6 +52,8 @@ We develop sophisticated Bayesian parameter estimation and population synthesis 
 
 - [Our Team]({{ site.baseurl }}/people/)
 - [About the PI]({{ site.baseurl }}/about/)
+- [Richard's personal homepage](https://ccrgpages.rit.edu/~oshaughn/Richard_OShaughnessy/Home.html)
+- [RIT faculty directory](https://www.rit.edu/directory/rossma-richard-o-shaughnessy)
 - [Publications (arXiv)](https://arxiv.org/search/?searchtype=author&query=O%27Shaughnessy%2C+R.)
 - [Publications (ADS)](https://ui.adsabs.harvard.edu/search/q=author%3A%22O%27Shaughnessy%2C+R.%22)
 - [Publications (Google Scholar)](https://scholar.google.com/citations?user=8pB5oH4AAAAJ&hl=en)

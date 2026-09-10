@@ -1,4 +1,5 @@
 ---
+layout: page
 title: Non-research activities
 category: work
 importance: 2

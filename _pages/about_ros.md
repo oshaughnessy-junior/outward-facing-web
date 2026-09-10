@@ -1,15 +1,14 @@
 ---
 layout: about
-title: About
+title: About Richard O'Shaughnessy
 permalink: /about/
 nav_order: 1
 profile:
   align: right
-  image: prof_pic.jpg
   more_info: School of Physics and Astronomy, Rochester Institute of Technology
 ---
 
-# About Richard O'Shaughnessy
+Associate Professor in the School of Physics and Astronomy at the [Rochester Institute of Technology](https://www.rit.edu/directory/rossma-richard-o-shaughnessy). Visit my [personal homepage](https://ccrgpages.rit.edu/~oshaughn/Richard_OShaughnessy/Home.html) for my CV and publication history.
 
 I joined the RIT faculty in 2014. My academic journey began at the **California Institute of Technology**, where I completed my PhD in Physics under the supervision of Kip Thorne.
 

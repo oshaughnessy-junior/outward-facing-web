@@ -1,4 +1,5 @@
 ---
+layout: page
 title: Source Populations
 category: work
 importance: 2
