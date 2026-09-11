@@ -23,6 +23,6 @@ The model also includes an intermediate-mass, isotropic component to address res
 
 ## Predictions that grow more useful with every event
 
-After physical normalization, the model gives a high-mass globular-cluster fraction of about 0.39%. It reports local rates of roughly 9.1 Gpc<sup>-3</sup> yr<sup>-1</sup> for the cluster channel and 16.0 Gpc<sup>-3</sup> yr<sup>-1</sup> for the field channel. It also predicts linked features: mass-spectrum breaks near 35 and 70 solar masses, a mass-ratio feature around *q* ≈ 0.5 from first-plus-second-generation pairings, and a symmetric effective-spin distribution that broadens sharply above 45 solar masses.
+After physical normalization, the model gives a high-mass globular-cluster fraction of about 0.39%. It reports local rates of roughly 9.1 Gpc<sup>-3</sup> yr<sup>-1</sup> for the cluster channel and 16.0 Gpc<sup>-3</sup> yr<sup>-1</sup> for the field channel. It also predicts linked features: mass-spectrum breaks near 35 and 70 solar masses, a mass-ratio feature around _q_ ≈ 0.5 from first-plus-second-generation pairings, and a symmetric effective-spin distribution that broadens sharply above 45 solar masses.
 
 These correlations are the point of the exercise. As the gravitational-wave catalog grows, observations can test not just one preferred mass or spin distribution, but detailed physical models whose parameters move continuously through plausible formation scenarios. That turns a growing list of black-hole mergers into a progressively more discriminating probe of how stellar environments build them.
