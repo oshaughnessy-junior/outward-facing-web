@@ -42,15 +42,15 @@ Notable alumni include:
 - **[Jacob Lange](https://ui.adsabs.harvard.edu/search/q=author%3A"Lange%2C+Jacob")** - [Personal Site](https://sites.cns.utexas.edu/cgp/people/jacob-lange) | [Google Scholar](https://scholar.google.com/scholar?q=Jacob+Lange) - Former CCRG graduate student and gravitational-wave astronomy researcher.
 - **[Daniel Wysocki](https://ui.adsabs.harvard.edu/search/q=author%3A"Wysocki%2C+Daniel")** - [Personal Site](https://dwysocki.gitlab.io/) | [Google Scholar](https://scholar.google.com/scholar?q=Daniel+Wysocki) - Research Associate in Physics at the University of Wisconsin-Milwaukee.
 - **[Vera Delfavero](https://ui.adsabs.harvard.edu/search/q=author%3A"Delfavero%2C+Vera")** - [CITA Directory](https://www.cita.utoronto.ca/people/directory/char/D/) | [Google Scholar](https://scholar.google.com/scholar?q=Vera+Delfavero) - Postdoctoral Fellow at the Canadian Institute for Theoretical Astrophysics.
-- **[Marko Ristic](https://ui.adsabs.harvard.edu/search/q=author%3A"Ristic%2C+Marko")** - [Personal Site](https://mristic.space/) | [Google Scholar](https://scholar.google.com/scholar?q=Marko+Ristic) - ISTI Postdoctoral Fellow and APS Career Mentoring Fellow at Los Alamos National Laboratory.
+- **[Marko Ristic](https://ui.adsabs.harvard.edu/search/q=author%3A"Ristic%2C+Marko")** - [Personal Site](https://mristic.space/) | [Google Scholar](https://scholar.google.com/scholar?q=Marko+Ristic) - Schmidt AI Postdoctoral Fellow at UC San Diego.
 - **[Anjali Yelikar](https://ui.adsabs.harvard.edu/search/q=author%3A"Yelikar%2C+Anjali")** - [Vanderbilt profile](https://www.vanderbilt.edu/lunarlabs/about-the-team/) | [Google Scholar](https://scholar.google.com/scholar?q=Anjali+Yelikar) - Postdoctoral Scholar in Vanderbilt’s Physics & Astronomy group.
 - **[Kaila Nathaniel](https://kailanathaniel.com/)** - Data scientist at Capital One; RIT Astrophysical Sciences and Technology Ph.D. graduate.
 - **[Katelyn Wagner](https://repository.rit.edu/theses/12336/)** - RIT Astrophysical Sciences and Technology Ph.D. graduate (2025).
 - **[Aasim Jan](https://www.aasimzjan.com/)** - Postdoctoral research fellow at TAPIR, Caltech.
 - **[Askold Vilkha](https://skos.agh.edu.pl/osoba/askold-vilkha-11162.html)** - Ph.D. student and research/teaching assistant at AGH University of Krakow in Poland.
-- **[Muhammad Zeeshan](https://repository.rit.edu/theses/11574/)** - RIT Astrophysical Sciences and Technology M.S. graduate (2023).
+- **[Muhammad Zeeshan](https://iammuhammadzeeshan.github.io/)** - RIT Astrophysical Sciences and Technology Ph.D. graduate (2026); now a professor in Pakistan. [RIT dissertation](https://repository.rit.edu/theses/12823/) | [LinkedIn](https://www.linkedin.com/in/iammuhammadzeeshan/)
 - **[Karl Daningburg](https://repository.rit.edu/theses/12708/)** - RIT Mathematical Modeling Ph.D. graduate (2026).
-- **Noah Manning** - RIT M.S. graduate.
+- **Noah Manning** - RIT M.S. graduate; now a Ph.D. student at The University of Texas Rio Grande Valley (UTRGV).
 - **[Marc Ebiri](https://repository.rit.edu/theses/12735/)** - RIT Physics M.S. graduate (2026); now a Physics Ph.D. student at the University of Texas Rio Grande Valley.
 
 ---
