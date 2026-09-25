@@ -217,3 +217,123 @@ html[data-theme="dark"] .research-site {
     }
   }
 }
+
+.research-site {
+  .software-map {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 12px;
+  }
+  .software-map h2,
+  .software-start h2 {
+    font-size: 1.3rem;
+  }
+  .software-flow {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 1.4rem;
+    list-style: none;
+    padding: 0;
+    margin: 1.5rem 0;
+  }
+  .software-flow li {
+    position: relative;
+    border-top: 3px solid var(--research-science);
+    padding-top: 0.8rem;
+  }
+  .software-flow li:not(:last-child)::after {
+    content: "→";
+    position: absolute;
+    right: -1.1rem;
+    top: 0.7rem;
+  }
+  .software-flow a {
+    display: block;
+    font-weight: 650;
+  }
+  .software-flow span {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 0.4rem;
+  }
+  .software-foundation {
+    border-left: 3px solid var(--research-ai);
+    padding: 0.7rem 1rem;
+    margin: 0;
+  }
+  .software-caption {
+    font-size: 0.8rem;
+    margin: 1rem 0 0;
+  }
+  .software-start ul {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.6rem 2rem;
+    padding-left: 1.2rem;
+  }
+  .software-category {
+    margin: 3.5rem 0;
+  }
+  .software-category > h2 {
+    scroll-margin-top: 6rem;
+  }
+  .software-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.2rem;
+  }
+  .software-card {
+    border: 1px solid var(--global-divider-color);
+    border-radius: 12px;
+    padding: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+  }
+  .software-card h3 {
+    font-size: 1.3rem;
+  }
+  .software-card p,
+  .software-card dl {
+    font-size: 0.93rem;
+  }
+  .software-card .research-eyebrow {
+    font-size: 0.7rem;
+  }
+  .software-card dt {
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+  }
+  .software-card dd {
+    margin-bottom: 0.8rem;
+  }
+  .software-status {
+    margin-top: auto;
+    border-top: 1px solid var(--global-divider-color);
+    padding-top: 0.8rem;
+    font-weight: 600;
+  }
+  .software-links {
+    display: flex;
+    gap: 0.6rem 1.2rem;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 640px) {
+  .research-site {
+    .software-flow,
+    .software-grid,
+    .software-start ul {
+      grid-template-columns: 1fr;
+    }
+    .software-flow li:not(:last-child)::after {
+      content: none;
+    }
+    .software-flow {
+      gap: 1rem;
+    }
+  }
+}

@@ -38,6 +38,13 @@ description: Gravitational-wave astrophysics and accountable AI research workflo
   <a class="research-link" href="{{ '/ai-agents/' | relative_url }}">Follow the MCRP work <span aria-hidden="true">→</span></a>
 </section>
 
+<section class="research-disclosure" aria-labelledby="software-heading">
+  <p class="research-eyebrow">The shared computational ecosystem</p>
+  <h2 id="software-heading">Inference → models → reusable evidence</h2>
+  <p>RIFT and its extensions connect physical models to observations. Surrogates, public samples, workflow adapters, and experimental verification tools make that work faster to reuse and easier to inspect. See what we build, what we contribute, and how the pieces connect.</p>
+  <a class="research-link" href="{{ '/repositories/' | relative_url }}">Explore our software ecosystem <span aria-hidden="true">→</span></a>
+</section>
+
 <section class="research-disclosure" aria-labelledby="disclosure-heading">
   <h2 id="disclosure-heading">How this site is made</h2>
   <p>AI agents draft and organize much of this site from the group’s research workflows. Most recent blog posts were created by AI. A post’s byline, provenance, and review status should tell you what was generated and what was checked; publication alone does not establish human review or validate a scientific claim. Historical posts may have incomplete attribution. <a href="{{ '/publication-policy/' | relative_url }}">Read the authorship and publication policy.</a></p>

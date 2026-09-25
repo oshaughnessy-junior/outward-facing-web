@@ -9,6 +9,8 @@ display_categories: [work]
 horizontal: false
 ---
 
+<p>Explore the science below, or follow the <a href="{{ '/repositories/' | relative_url }}">software ecosystem</a> to see how inference engines, physical models, data releases, and workflow tools support these projects.</p>
+
 <!-- pages/projects.md -->
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}

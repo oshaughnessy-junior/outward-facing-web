@@ -34,6 +34,8 @@ nav_order: 2
   <p>Physics questions and scientific results live in the <a href="{{ '/astrophysics/' | relative_url }}">astrophysics lane</a>; the mechanisms for producing and checking that work live here.</p>
 </aside>
 
+<section class="research-disclosure"><h2>Code that supports this work</h2><p>Explore the public prototypes: campaign contracts, adaptive workflow demonstrations, and trust-and-review research. These are inspectable steps toward the objective, with their current limits made explicit.</p><a class="research-link" href="{{ '/repositories/' | relative_url }}#agents-trust">Explore the software ecosystem <span aria-hidden="true">→</span></a></section>
+
 <div class="research-section-heading"><h2>Notes on agents, methods &amp; MCRP</h2><a href="{{ '/ai-agents/feed.xml' | relative_url }}">AI lane RSS feed</a></div>
 {% include research/post-list.liquid lane='ai' %}
 

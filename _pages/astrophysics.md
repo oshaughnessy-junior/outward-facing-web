@@ -24,5 +24,7 @@ nav_order: 1
   <p><strong>Where the lanes meet.</strong> A physics result belongs here. How an agent proposes, executes, or checks the work belongs in <a href="{{ '/ai-agents/' | relative_url }}">AI, agents &amp; trust</a>. Research notes describe work and ideas; use their cited papers and evidence to assess the underlying claims.</p>
 </aside>
 
+<section class="research-disclosure"><h2>Code that supports this work</h2><p>From RIFT inference to kilonova surrogates and public samples: explore the software and data that connect these science questions.</p><a class="research-link" href="{{ '/repositories/' | relative_url }}#inference">Explore the software ecosystem <span aria-hidden="true">→</span></a></section>
+
 <div class="research-section-heading"><h2>Notes from the science lane</h2><a href="{{ '/astrophysics/feed.xml' | relative_url }}">Science RSS feed</a></div>
 {% include research/post-list.liquid lane='science' %}
