@@ -5,7 +5,7 @@ date: 2020-10-28
 ---
 
 LIGO and Virgo report on all the compact binaries found in the first half of the latest observing run (O3a): GWTC-2..  
- We find a few pretty massive binary BHs, like GW190521; a few fairly massive BH that are significantly spinning, like GW190517; a few asymmetric binaries, like the previously-reported GW190814 and GW190412; and a few binaries with one or more object below 3 times the mass of our sun, and therefore potentially neutron stars.
+We find a few pretty massive binary BHs, like GW190521; a few fairly massive BH that are significantly spinning, like GW190517; a few asymmetric binaries, like the previously-reported GW190814 and GW190412; and a few binaries with one or more object below 3 times the mass of our sun, and therefore potentially neutron stars.
 
 One interesting find was a marginal NSBH candidate (false alarm rate of order 1/yr) GW190426. This event was followed up extensively with optical telescopes. For marginal events like this, we have a hard time corroborating the nature of either component -- the GW signature of matter is easier to discern for two neutron stars, with a loud signal.
 
