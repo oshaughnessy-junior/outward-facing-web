@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="540" viewBox="0 0 1000 540" role="img" aria-labelledby="title desc">
+<title id="title">A proposed publication and verification cycle</title>
+<desc id="desc">Four separate roles freeze a candidate, check its evidence, publish approved bytes, and observe the public result. Corrections start a new release. Scientific disposition is a separate qualified human decision.</desc>
+<defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8" fill="none" stroke="#167d8d" stroke-width="1.5"/></marker></defs>
+<rect width="1000" height="540" rx="24" fill="#f1f5f6"/>
+<g font-family="system-ui, sans-serif" fill="#18333d">
+<text x="44" y="55" font-size="15" letter-spacing="2" fill="#386675">MCRP · PROPOSED PROCESS</text>
+<text x="44" y="97" font-size="30" font-weight="700">Publish the work. Verify the release.</text>
+<g stroke="#c0d5da" fill="#fff" stroke-width="2"><rect x="44" y="142" width="204" height="157" rx="12"/><rect x="280" y="142" width="204" height="157" rx="12"/><rect x="516" y="142" width="204" height="157" rx="12"/><rect x="752" y="142" width="204" height="157" rx="12"/></g>
+<g font-size="14" fill="#167d8d" font-weight="700"><text x="62" y="172">01 · AUTHOR</text><text x="298" y="172">02 · VERIFIER</text><text x="534" y="172">03 · PUBLISHER</text><text x="770" y="172">04 · OBSERVER</text></g>
+<g font-size="21" font-weight="700"><text x="62" y="206">Freeze</text><text x="298" y="206">Check</text><text x="534" y="206">Release</text><text x="770" y="206">Fetch live</text></g>
+<g font-size="16"><text x="62" y="241">Claims + evidence</text><text x="62" y="267">One fixed candidate</text><text x="298" y="241">Evidence + authority</text><text x="298" y="267">Separate identity</text><text x="534" y="241">Approved bytes only</text><text x="534" y="267">Limited delegation</text><text x="770" y="241">Compare + record</text><text x="770" y="267">Public receipt</text></g>
+<g stroke="#167d8d" stroke-width="2.5" fill="none" marker-end="url(#arrow)"><path d="M249 221 H277"/><path d="M485 221 H513"/><path d="M721 221 H749"/><path d="M854 307 V354 H145 V307"/></g>
+<rect x="328" y="337" width="344" height="32" rx="8" fill="#f1f5f6"/><text x="500" y="359" text-anchor="middle" font-size="17" fill="#167d8d">A correction creates a new release</text>
+<rect x="44" y="404" width="912" height="93" rx="12" fill="#173b49"/>
+<text x="64" y="437" font-size="19" font-weight="700" fill="#fff">A separate question: does the evidence support the science?</text><text x="64" y="470" font-size="17" fill="#d5e7ed">Qualified human judgment · declared scope · no automatic transfer of trust</text>
+</g></svg>

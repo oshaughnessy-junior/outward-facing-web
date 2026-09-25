@@ -18,6 +18,8 @@ pagination:
 
 <div class="post">
 
+<p>Explore <a href="{{ '/astrophysics/' | relative_url }}">Science</a> or <a href="{{ '/ai-agents/' | relative_url }}">AI &amp; research practice</a>. Most recent posts are AI-produced research notes. <a href="{{ '/publication-policy/' | relative_url }}">Read our authorship and review policy</a>.</p>
+
 {% assign blog_name_size = site.blog_name | size %}
 {% assign blog_description_size = site.blog_description | size %}
 
@@ -179,7 +181,7 @@ pagination:
 </div>
 
   <div class="col-sm-3">
-    <img class="card-img" src="{{ post.thumbnail | relative_url }}" style="object-fit: cover; height: 90%" alt="image">
+    <img class="card-img" src="{{ post.thumbnail | relative_url }}" style="object-fit: cover; height: 90%" alt="{{ post.thumbnail_alt | default: post.title | escape }}">
   </div>
 </div>
 {% endif %}

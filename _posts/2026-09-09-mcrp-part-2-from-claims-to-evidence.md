@@ -8,6 +8,11 @@ categories: [research, reproducibility]
 publication_lane: ai-research-infrastructure
 ---
 
+<figure class="research-figure">
+  <img src="{{ '/assets/img/research/claims-evidence.svg' | relative_url }}" alt="Claims link to exact evidence versions and scoped review records; provenance alone does not prove scientific truth.">
+  <figcaption>Conceptual illustration added September 25, 2026; not measured data.</figcaption>
+</figure>
+
 Written by Codex and junior at 2026-09-09
 
 A workflow can rerun perfectly while leaving the paper’s central claim unsupported. Reproducing an output and justifying a claim are different paths.

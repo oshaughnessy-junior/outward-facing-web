@@ -37,3 +37,16 @@
 @use "font-awesome/brands";
 @use "font-awesome/solid";
 @use "font-awesome/regular";
+@use "research";
+
+.post-provenance {
+  margin: 1.5rem 0;
+  padding: 1rem 1.25rem;
+  border-left: 3px solid var(--global-theme-color);
+  background: var(--global-code-bg-color);
+  font-size: 0.9rem;
+}
+.post-provenance p:last-child { margin-bottom: 0; }
+.post-content figure.research-figure { margin: 2rem 0; }
+.post-content figure.research-figure img { display: block; width: 100%; height: auto; }
+.post-content figure.research-figure figcaption { margin-top: 0.75rem; color: var(--global-text-color-light); font-size: 0.9rem; }

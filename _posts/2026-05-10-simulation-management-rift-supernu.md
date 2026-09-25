@@ -6,6 +6,11 @@ author: "Richard"
 categories: [research]
 ---
 
+<figure class="research-figure">
+  <img src="{{ '/assets/img/research/simulation-cycle.svg' | relative_url }}" alt="A three-stage workflow: choose a bounded experiment, run and preserve its inputs and outputs, then use the record to refine the next experiment.">
+  <figcaption>Conceptual illustration added September 25, 2026; not measured data.</figcaption>
+</figure>
+
 # Simulation Management Beyond "Run and Hope": Adaptive Placement, Archiving, and SuperNu as a Realization
 
 **Status:** Draft v3 — added motivation section per Richard's guidance

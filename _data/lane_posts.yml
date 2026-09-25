@@ -1,5 +1,7 @@
 # Public post slugs only. Unlisted posts remain in the astrophysics fallback lane.
 ai:
+  - mcrp-agents-need-to-publish-and-verify
+  - small-research-nodes-large-questions
   # Jekyll post.slug excludes the YYYY-MM-DD- filename prefix.
   - 01_model-choices
   - 02_system-optimization

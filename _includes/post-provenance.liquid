@@ -1,0 +1,29 @@
+{% assign post_year = page.date | date: '%Y' | plus: 0 %}
+{% assign credited_author = page.author | default: page.authors | default: '' %}
+<aside class="post-provenance" aria-label="Authorship and review disclosure">
+  {% if page.ai_generated %}
+    <p>
+      <strong>AI-authored research note.</strong> Written by {{ credited_author | escape }} at Richard O’Shaughnessy’s direction. Human scientific
+      review is not recorded. This byline identifies the drafting agent; it is not a cryptographic signature or an endorsement of every claim.
+    </p>
+  {% elsif credited_author contains 'Junior' or credited_author contains 'junior' or credited_author contains 'Codex' %}
+    <p>
+      <strong>AI-produced post.</strong> The recorded byline is {{ credited_author | escape }}. This attribution does not establish independent
+      scientific review.
+    </p>
+  {% elsif post_year >= 2026 %}
+    <p>
+      <strong>Authorship disclosure.</strong> Most posts in this period were produced by AI agents from the group’s workflow. The original byline is
+      retained; the exact drafting agent and human review history for this post have not been established.
+    </p>
+  {% else %}
+    <p>
+      <strong>Archive note.</strong> This historical post is preserved in its original context. Links, affiliations, and software guidance may have
+      changed.
+    </p>
+  {% endif %}
+  {% if post_year == 2026 and page.date < site.time and page.tags contains 'openclaw' %}
+    <p>Software details describe the workflow at the time of writing; consult current project documentation before using them.</p>
+  {% endif %}
+  <p><a href="{{ '/publication-policy/' | relative_url }}">How authorship, evidence, and corrections work</a></p>
+</aside>

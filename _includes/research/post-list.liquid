@@ -1,0 +1,23 @@
+{% assign shown = 0 %}
+<div class="research-posts">
+  {% for post in site.posts %}
+    {% assign lane = 'science' %}
+    {% if site.data.lane_posts.ai contains post.slug %}{% assign lane = 'ai' %}{% endif %}
+    {% if lane == include.lane and post.external_source == null %}
+      {% if include.limit == null or shown < include.limit %}
+        <article class="research-post">
+          <p class="research-meta">
+            <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: '%b %-d, %Y' }}</time>
+          </p>
+          <h3>
+            <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+          </h3>
+          {% if post.description %}
+            <p>{{ post.description | escape }}</p>
+          {% endif %}
+        </article>
+        {% assign shown = shown | plus: 1 %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+</div>
