@@ -5,7 +5,7 @@ date: 2014-09-01
 ---
 
 Gravitational wave astronomy begins with inference : figuring out what kind of astrophysical source was responsible for the implausible event in our data. By exhaustively comparing that data against all candidate signals, we can reconstruct how consistent with that data any any proposed source is. In other words, we can use gravitational waves to measure the properties of the sources responsible for each gravitational wave signal we detect!  
- These measurements will tell us how often different types of compact objects mege throughout the universe, revolutionizing our understanding of how stars and stellar systems evolve to produce these exotic binaries. And might also let us probe the nature of nuclear matter; resolve longstanding astrophysical mysteries like short gamma ray bursts; and even challenge our understanding of gravity itself.
+These measurements will tell us how often different types of compact objects mege throughout the universe, revolutionizing our understanding of how stars and stellar systems evolve to produce these exotic binaries. And might also let us probe the nature of nuclear matter; resolve longstanding astrophysical mysteries like short gamma ray bursts; and even challenge our understanding of gravity itself.
 
 Through the persistent efforts of several key colleagues (notably John Veitch; Vivien Raymond; and Ben and Will Farr), a subset of the LIGO Scientific Collaboration has consolidated its expertise in gravitational wave parameter estimation into a single authoritative library, `lalinference`.
 

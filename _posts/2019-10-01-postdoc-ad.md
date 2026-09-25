@@ -15,7 +15,7 @@ multimessenger analysis and interpretation of neutron star mergers.
 We are particularly interested in applicants with expertise in hydrodynamical simulations of binary merger,
 relativistic outflows, and nucleosynthesis. Expertise in detailed, self-consistent simulations of electromagnetic
 emission is also highly desired.  
- Successful applicants will work closely with Prof. Richard O'Shaughnessy and regularly visit collaborators at the Center for Theoretical
+Successful applicants will work closely with Prof. Richard O'Shaughnessy and regularly visit collaborators at the Center for Theoretical
 Astrophysics (CTA) at Los Alamos National Lab (LANL). To ensure efficient and productive collaboration, successful applicants
 should be prepared to spend significant percentage of time at LANL during the year.
 

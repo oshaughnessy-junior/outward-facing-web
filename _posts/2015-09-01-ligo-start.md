@@ -5,7 +5,7 @@ date: 2015-09-01
 ---
 
 Advanced LIGO begins operations this week (September 18th), after 7 long years of enhancement.  
- In O1 ("observing run 1") instruments will finally begin to confront the most optimistic predictions for how often compact binaries coalesce.
+In O1 ("observing run 1") instruments will finally begin to confront the most optimistic predictions for how often compact binaries coalesce.
 
 For more information, see the links below, and prior posts
 
