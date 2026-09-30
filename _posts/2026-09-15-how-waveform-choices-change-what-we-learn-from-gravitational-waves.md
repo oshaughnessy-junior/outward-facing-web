@@ -28,4 +28,3 @@ The authors also identify a bug in published LVK GWTC-2.1 SEOBNRv4PHM results an
 ## Why this matters
 
 The paper’s lesson is practical: uncertainty in gravitational-wave astronomy includes uncertainty from waveform models and from the settings used to analyze them. Comparing multiple state-of-the-art models, and checking implementation details that define the allowed parameter space, helps separate what the detector data say from what a particular analysis pipeline assumes. As the catalog of gravitational-wave events grows, that discipline will be central to turning faint cosmic signals into reliable knowledge about the universe.
-
