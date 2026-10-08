@@ -40,6 +40,7 @@ Associate Professor, School of Physics and Astronomy, RIT
 
 Notable alumni include:
 
+- **Brandon Miller** - Former RIT undergraduate; now at NVIDIA.
 - **[Jacob Lange](https://ui.adsabs.harvard.edu/search/q=author%3A"Lange%2C+Jacob")** - [Personal Site](https://sites.cns.utexas.edu/cgp/people/jacob-lange) | [Google Scholar](https://scholar.google.com/scholar?q=Jacob+Lange) - Former CCRG graduate student and gravitational-wave astronomy researcher.
 - **[Daniel Wysocki](https://ui.adsabs.harvard.edu/search/q=author%3A"Wysocki%2C+Daniel")** - [Personal Site](https://dwysocki.gitlab.io/) | [Google Scholar](https://scholar.google.com/scholar?q=Daniel+Wysocki) - Research Associate in Physics at the University of Wisconsin-Milwaukee.
 - **[Vera Delfavero](https://ui.adsabs.harvard.edu/search/q=author%3A"Delfavero%2C+Vera")** - [CITA Directory](https://www.cita.utoronto.ca/people/directory/char/D/) | [Google Scholar](https://scholar.google.com/scholar?q=Vera+Delfavero) - Postdoctoral Fellow at the Canadian Institute for Theoretical Astrophysics.
