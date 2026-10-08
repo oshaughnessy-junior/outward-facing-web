@@ -29,6 +29,7 @@ Associate Professor, School of Physics and Astronomy, RIT
 
 ### Graduate Students
 
+- **Natalie Malagon** - Graduate student.
 - **[Patricia McMillin](https://ui.adsabs.harvard.edu/search/q=author%3A"McMillin%2C+Patricia")** - [CCRG Profile](https://ccrg.rit.edu/user/patricia.mcmillin) - Ph.D. student studying parameter estimation for eccentric binary black-hole systems.
 - **[Rachel Mechum](https://ui.adsabs.harvard.edu/search/q=author%3A"Mechum%2C+Rachel")** - [CCRG Profile](https://ccrg.rit.edu/user/rachel.mechum) - Ph.D. student researching high-mass-ratio binary black holes and their formation and evolution.
 - **[Zoe Rosenberg](https://ui.adsabs.harvard.edu/search/q=author%3A"Rosenberg%2C+Zoe")** - [CCRG Profile](https://ccrg.rit.edu/user/zoe.rosenberg) - Ph.D. student studying how supernova-convection assumptions affect binary-black-hole populations.
