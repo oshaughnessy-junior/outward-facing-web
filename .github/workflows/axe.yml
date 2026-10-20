@@ -69,6 +69,6 @@ jobs:
         # https://github.com/dequelabs/axe-core-npm/tree/develop/packages/cli
         run: |
           npm install -g @axe-core/cli
-          npm install -g http-server
-          http-server _site/ &
+          npm install --prefix "$RUNNER_TEMP/axe-tools" http-server
+          "$RUNNER_TEMP/axe-tools/node_modules/.bin/http-server" _site/ &
           axe --chromedriver-path $(npm root -g)/chromedriver/bin/chromedriver http://localhost:8080/${{ github.event.inputs.url || env.URL }} --load-delay=1500 --exit
