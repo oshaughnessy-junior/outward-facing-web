@@ -24,6 +24,7 @@ jobs:
   check:
     # available images: https://github.com/actions/runner-images#available-images
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v4
@@ -81,4 +82,12 @@ jobs:
           else
             urls=(http://localhost:8080/ http://localhost:8080/research/ http://localhost:8080/astrophysics/ http://localhost:8080/ai-agents/ http://localhost:8080/repositories/ http://localhost:8080/people/)
           fi
-          axe --chromedriver-path "$(npm root -g)/chromedriver/bin/chromedriver" "${urls[@]}" --load-delay=1500 --exit
+          axe --chromedriver-path "$(npm root -g)/chromedriver/bin/chromedriver" "${urls[@]}" --load-delay=1500 --save axe-results.json --exit
+
+      - name: Save accessibility evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: axe-results
+          path: axe-results.json
+          if-no-files-found: warn
