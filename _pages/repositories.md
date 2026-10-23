@@ -8,12 +8,12 @@ nav: true
 nav_order: 5
 ---
 
-<header class="research-hero research-hero-compact">
+<div class="research-hero research-hero-compact">
   <p class="research-eyebrow">Open research / Code, models &amp; evidence</p>
   <h1>Software that connects<br>questions to evidence.</h1>
   <p class="research-lead">Our contribution is an ecosystem: inference methods, physical models, reusable results, and the infrastructure that makes the work inspectable.</p>
   <p class="research-intro">The group develops and contributes to collaborative scientific software. Some projects are inference engines; others connect tools, release data, teach methods, or test how agents can produce verifiable research. Each has a different role.</p>
-</header>
+</div>
 
 <section class="software-map" aria-labelledby="software-map-title">
   <h2 id="software-map-title">How the pieces fit</h2>

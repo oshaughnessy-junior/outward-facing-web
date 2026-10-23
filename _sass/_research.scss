@@ -337,3 +337,17 @@ html[data-theme="dark"] .research-site {
     }
   }
 }
+
+.research-site .research-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.8rem 1.5rem;
+  margin: 1.5rem 0 0;
+}
+.research-site .research-primary-link {
+  border: 2px solid currentColor;
+  border-radius: 6px;
+  padding: 0.55rem 0.9rem;
+  font-weight: 600;
+}

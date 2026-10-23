@@ -23,9 +23,14 @@ jobs:
   check:
     # available images: https://github.com/actions/runner-images#available-images
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v4
+      - name: Isolate Node CLI tools
+        run: |
+          echo "NPM_CONFIG_PREFIX=$RUNNER_TEMP/axe-tools" >> "$GITHUB_ENV"
+          echo "$RUNNER_TEMP/axe-tools/bin" >> "$GITHUB_PATH"
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
@@ -66,9 +71,27 @@ jobs:
         run: |
           npm install -g chromedriver@$CHROMIUM_VERSION
       - name: Run axe 🪓
+        env:
+          AUDIT_PATH: ${{ github.event.inputs.url || env.URL }}
+          AUDIT_CHROME: ${{ steps.setup-chrome.outputs.chrome-path }}
         # https://github.com/dequelabs/axe-core-npm/tree/develop/packages/cli
         run: |
           npm install -g @axe-core/cli
           npm install -g http-server
           http-server _site/ &
-          axe --chromedriver-path $(npm root -g)/chromedriver/bin/chromedriver http://localhost:8080/${{ github.event.inputs.url || env.URL }} --load-delay=1500 --exit
+          if [ -n "$AUDIT_PATH" ]; then
+            urls=("http://localhost:8080/${AUDIT_PATH#/}")
+          else
+            urls=(http://localhost:8080/ http://localhost:8080/research/ http://localhost:8080/astrophysics/ http://localhost:8080/ai-agents/ http://localhost:8080/repositories/ http://localhost:8080/people/)
+          fi
+          # Chrome's sandbox is unavailable in the ephemeral hosted runner.
+          # Audit only this checkout's local static build.
+          axe --chrome-options="no-sandbox,disable-dev-shm-usage" --chrome-path "$AUDIT_CHROME" --chromedriver-path "$(npm root -g)/chromedriver/bin/chromedriver" "${urls[@]}" --load-delay=1500 --save axe-results.json --exit
+
+      - name: Save accessibility evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: axe-results
+          path: axe-results.json
+          if-no-files-found: warn
