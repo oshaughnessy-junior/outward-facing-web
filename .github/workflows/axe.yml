@@ -73,6 +73,7 @@ jobs:
       - name: Run axe 🪓
         env:
           AUDIT_PATH: ${{ github.event.inputs.url || env.URL }}
+          AUDIT_CHROME: ${{ steps.setup-chrome.outputs.chrome-path }}
         # https://github.com/dequelabs/axe-core-npm/tree/develop/packages/cli
         run: |
           npm install -g @axe-core/cli
@@ -83,7 +84,7 @@ jobs:
           else
             urls=(http://localhost:8080/ http://localhost:8080/research/ http://localhost:8080/astrophysics/ http://localhost:8080/ai-agents/ http://localhost:8080/repositories/ http://localhost:8080/people/)
           fi
-          axe --chromedriver-path "$(npm root -g)/chromedriver/bin/chromedriver" "${urls[@]}" --load-delay=1500 --save axe-results.json --exit
+          axe --chrome-path "$AUDIT_CHROME" --chromedriver-path "$(npm root -g)/chromedriver/bin/chromedriver" "${urls[@]}" --load-delay=1500 --save axe-results.json --exit
 
       - name: Save accessibility evidence
         if: always()
