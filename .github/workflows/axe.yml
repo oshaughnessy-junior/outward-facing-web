@@ -84,7 +84,9 @@ jobs:
           else
             urls=(http://localhost:8080/ http://localhost:8080/research/ http://localhost:8080/astrophysics/ http://localhost:8080/ai-agents/ http://localhost:8080/repositories/ http://localhost:8080/people/)
           fi
-          axe --chrome-path "$AUDIT_CHROME" --chromedriver-path "$(npm root -g)/chromedriver/bin/chromedriver" "${urls[@]}" --load-delay=1500 --save axe-results.json --exit
+          # Chrome's sandbox is unavailable in the ephemeral hosted runner.
+          # Audit only this checkout's local static build.
+          axe --chrome-options="no-sandbox,disable-dev-shm-usage" --chrome-path "$AUDIT_CHROME" --chromedriver-path "$(npm root -g)/chromedriver/bin/chromedriver" "${urls[@]}" --load-delay=1500 --save axe-results.json --exit
 
       - name: Save accessibility evidence
         if: always()
