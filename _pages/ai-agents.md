@@ -8,12 +8,12 @@ nav: true
 nav_order: 2
 ---
 
-<header class="research-hero research-hero-compact">
+<div class="research-hero research-hero-compact">
   <p class="research-eyebrow">02 / The research practice lane</p>
   <h1>AI, agents &amp; trust</h1>
   <p class="research-lead">Useful autonomy needs evidence that others can inspect.</p>
   <p class="research-intro">This lane covers how research gets done: agent teams, computational infrastructure, experiment design, reproducibility, and publication. It is for researchers and builders developing systems that can do careful work and expose their limitations.</p>
-</header>
+</div>
 
 <section class="research-objective" aria-labelledby="mcrp-objective">
   <p class="research-eyebrow">MCRP / Minimum Credible Reproducibility Protocol</p>

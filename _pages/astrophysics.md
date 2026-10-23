@@ -7,12 +7,12 @@ nav: true
 nav_order: 1
 ---
 
-<header class="research-hero research-hero-compact">
+<div class="research-hero research-hero-compact">
   <p class="research-eyebrow">01 / The science lane</p>
   <h1>Astrophysics</h1>
   <p class="research-lead">What can merging black holes and neutron stars tell us about the universe?</p>
   <p class="research-intro">This lane follows the physical questions: gravitational-wave sources, multimessenger observations, compact-binary populations, and the simulations and inference methods used to study them.</p>
-</header>
+</div>
 
 <div class="research-topics">
   <section><h2>Sources</h2><p>Binary dynamics, spins, eccentricity, and the signals emitted as compact objects merge.</p></section>

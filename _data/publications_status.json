@@ -1,6 +1,6 @@
 {
-  "last_successful_refresh": "2026-10-08T09:09:56.563139+00:00",
-  "query": "explicit arXiv IDs",
-  "records_checked": ["2609.39057", "2610.09199", "2609.15827", "2609.37393", "2610.07424"],
-  "records_added": ["2609.39057", "2610.09199", "2609.15827", "2609.37393", "2610.07424"]
+  "last_successful_refresh": "2026-10-23T00:11:53.358553+00:00",
+  "query": "author:O'Shaughnessy;since:2026-10-08",
+  "records_checked": ["2610.28775", "2610.20276"],
+  "records_added": ["2610.28775", "2610.20276"]
 }

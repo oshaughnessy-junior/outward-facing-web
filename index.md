@@ -5,12 +5,29 @@ title: O'Shaughnessy Research Group
 description: Gravitational-wave astrophysics and accountable AI research workflows.
 ---
 
-<header class="research-hero">
+<div class="research-hero">
   <p class="research-eyebrow">The O’Shaughnessy Research Group · RIT</p>
   <h1>Explore the universe.<br>Make the work checkable.</h1>
   <p class="research-lead">We study compact objects and gravitational waves—and the computational methods that turn ambitious questions into evidence.</p>
-  <p class="research-intro">Two connected lanes: the physics we want to understand, and the AI-supported research practices we are building to investigate it.</p>
-</header>
+  <p class="research-intro">Led by Richard O’Shaughnessy at Rochester Institute of Technology, our group connects gravitational-wave astrophysics, scientific computing, and accountable AI research workflows.</p>
+  <nav class="research-actions" aria-label="Research and faculty information">
+    <a class="research-primary-link" href="{{ '/research/' | relative_url }}">Research overview &amp; selected work</a>
+    <a href="{{ '/cv/' | relative_url }}">CV</a>
+    <a href="{{ '/publications/' | relative_url }}">Publications</a>
+    <a href="{{ '/contact/' | relative_url }}">Collaborate</a>
+  </nav>
+</div>
+
+<section class="research-disclosure" aria-labelledby="selected-work-heading">
+  <p class="research-eyebrow">A starting point in the academic record</p>
+  <h2 id="selected-work-heading">Methods, physical models, and reusable research</h2>
+  <div class="research-topics">
+    <section><h3>Gravitational-wave inference</h3><p>RIFT links physical signal models to source-parameter inference. <a href="https://arxiv.org/abs/2210.07912">Wofford et al.: methods and performance</a>.</p></section>
+    <section><h3>Accelerated computing</h3><p>GPU implementations target the cost and latency of likelihood evaluation. <a href="https://arxiv.org/abs/1902.04934">Wysocki et al.: GPU inference</a>.</p></section>
+    <section><h3>Multimessenger modeling</h3><p>Kilonova surrogates connect radiative-transfer simulations with observed light curves. <a href="https://arxiv.org/abs/2211.04363">Kedia et al.: models and inference</a>.</p></section>
+  </div>
+  <p><a href="{{ '/research/' | relative_url }}">Explore the contributions, primary papers, and reusable outputs</a>.</p>
+</section>
 
 <div class="research-lanes">
   <section class="research-lane research-science" aria-labelledby="science-heading">
