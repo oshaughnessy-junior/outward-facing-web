@@ -76,7 +76,7 @@ jobs:
           AUDIT_CHROME: ${{ steps.setup-chrome.outputs.chrome-path }}
         # https://github.com/dequelabs/axe-core-npm/tree/develop/packages/cli
         run: |
-          npm install -g @axe-core/cli
+          npm install -g @axe-core/cli selenium-webdriver
           npm install -g http-server
           http-server _site/ &
           if [ -n "$AUDIT_PATH" ]; then
@@ -88,10 +88,21 @@ jobs:
           # Audit only this checkout's local static build.
           axe --chrome-options="no-sandbox,disable-dev-shm-usage" --chrome-path "$AUDIT_CHROME" --chromedriver-path "$(npm root -g)/chromedriver/bin/chromedriver" "${urls[@]}" --load-delay=1500 --save axe-results.json --exit
 
+      - name: Check desktop and mobile rendering
+        if: success() || failure()
+        env:
+          AUDIT_CHROME: ${{ steps.setup-chrome.outputs.chrome-path }}
+        run: |
+          export NODE_PATH="$(npm root -g)"
+          export AUDIT_DRIVER="$(npm root -g)/chromedriver/bin/chromedriver"
+          node .github/research-layout-check.cjs
+
       - name: Save accessibility evidence
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: axe-results
-          path: axe-results.json
+          path: |
+            axe-results.json
+            layout-evidence/
           if-no-files-found: warn
