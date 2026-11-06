@@ -76,22 +76,33 @@ jobs:
           AUDIT_CHROME: ${{ steps.setup-chrome.outputs.chrome-path }}
         # https://github.com/dequelabs/axe-core-npm/tree/develop/packages/cli
         run: |
-          npm install -g @axe-core/cli
+          npm install -g @axe-core/cli selenium-webdriver
           npm install -g http-server
           http-server _site/ &
           if [ -n "$AUDIT_PATH" ]; then
             urls=("http://localhost:8080/${AUDIT_PATH#/}")
           else
-            urls=(http://localhost:8080/ http://localhost:8080/research/ http://localhost:8080/astrophysics/ http://localhost:8080/ai-agents/ http://localhost:8080/repositories/ http://localhost:8080/people/)
+            urls=(http://localhost:8080/ http://localhost:8080/research/ http://localhost:8080/astrophysics/ http://localhost:8080/ai-agents/ http://localhost:8080/repositories/ http://localhost:8080/people/ http://localhost:8080/projects/)
           fi
           # Chrome's sandbox is unavailable in the ephemeral hosted runner.
           # Audit only this checkout's local static build.
           axe --chrome-options="no-sandbox,disable-dev-shm-usage" --chrome-path "$AUDIT_CHROME" --chromedriver-path "$(npm root -g)/chromedriver/bin/chromedriver" "${urls[@]}" --load-delay=1500 --save axe-results.json --exit
+
+      - name: Check desktop and mobile rendering
+        if: success() || failure()
+        env:
+          AUDIT_CHROME: ${{ steps.setup-chrome.outputs.chrome-path }}
+        run: |
+          export NODE_PATH="$(npm root -g)"
+          export AUDIT_DRIVER="$(npm root -g)/chromedriver/bin/chromedriver"
+          node .github/research-layout-check.cjs
 
       - name: Save accessibility evidence
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: axe-results
-          path: axe-results.json
+          path: |
+            axe-results.json
+            layout-evidence/
           if-no-files-found: warn
