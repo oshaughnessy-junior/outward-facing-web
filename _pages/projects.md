@@ -2,64 +2,31 @@
 layout: page
 title: Projects
 permalink: /projects/
-description:
+description: Research questions, primary papers, and reusable software.
 nav: true
 nav_order: 4
-display_categories: [work]
-horizontal: false
 ---
 
-<p>Explore the science below, or follow the <a href="{{ '/repositories/' | relative_url }}">software ecosystem</a> to see how inference engines, physical models, data releases, and workflow tools support these projects.</p>
+Our projects connect gravitational-wave observations, physical models, and scientific computing. Start with the [research overview]({{ '/research/' | relative_url }}) for selected contributions and the [software ecosystem]({{ '/repositories/' | relative_url }}) for code and data.
 
-<!-- pages/projects.md -->
-<div class="projects">
-{% if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
-  {% for category in page.display_categories %}
-  <h2 id="{{ category }}" class="category">{{ category }}</h2>
-  {% assign categorized_projects = site.projects | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal %}
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-  {% endfor %}
+## Compact-binary inference
 
-{% else %}
+RIFT connects detailed waveform models to parameter estimation. Read the [foundational methods paper](https://arxiv.org/abs/1805.10457), the [robustness study](https://arxiv.org/abs/2210.07912), and McMillin and collaborators’ [October 2026 preprint on precession and eccentricity](https://arxiv.org/abs/2610.40077).
 
-<!-- Display projects without categories -->
+[Inference software and public outputs]({{ '/repositories/' | relative_url }}#inference)
 
-{% assign sorted_projects = site.projects | sort: "importance" %}
+## Black holes in galactic nuclei
 
-  <!-- Generate cards for each project -->
+Recent group preprints examine [strong star–black-hole encounters in AGN disks](https://arxiv.org/abs/2610.40144) and [numerical-relativity surrogate models for AGN-channel merger dynamics](https://arxiv.org/abs/2610.37895). Follow the papers for author credit, model assumptions, and the scope of the results.
 
-{% if page.horizontal %}
+[Astrophysics research notes]({{ '/astrophysics/' | relative_url }})
 
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-{% endif %}
-</div>
+## Multimessenger models
+
+Kilonova light-curve modeling connects merger ejecta to observations. See [Kedia and collaborators’ surrogate-model study](https://arxiv.org/abs/2211.04363) and the associated [models and data]({{ '/repositories/' | relative_url }}#models-data).
+
+## Experimental AI research workflows
+
+Our second lane investigates agent coordination, reproducibility, and evidence-linked review through public prototypes. See the [AI and agents lane]({{ '/ai-agents/' | relative_url }}) and [research-practice contribution overview]({{ '/research/' | relative_url }}#contributions-heading). Prototype status and scientific publication approval remain distinct.
+
+[Contact Richard about a research collaboration]({{ '/contact/' | relative_url }}).

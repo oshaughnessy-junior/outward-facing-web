@@ -18,6 +18,16 @@ permalink: /research/
   </nav>
 </div>
 
+<section class="research-disclosure" aria-labelledby="recent-preprints-heading">
+  <h2 id="recent-preprints-heading">Recent group preprints · October 2026</h2>
+  <ul>
+    <li><a href="https://arxiv.org/abs/2610.40144">What kinds of strong star–black-hole encounters in AGN disks occur, and how often?</a> — O’Shaughnessy, Rosenberg &amp; Nordhaus.</li>
+    <li><a href="https://arxiv.org/abs/2610.40077">Disentangling Spin-induced Precession vs. Eccentricity in GW190521 and GW231123</a> — McMillin, Ficarra, Lousto &amp; O’Shaughnessy.</li>
+    <li><a href="https://arxiv.org/abs/2610.37895">Considering Numerical Relativity Surrogate Models for AGN Channel Merger Dynamics</a> — Ray and collaborators.</li>
+  </ul>
+  <p>Public preprints; follow each primary record for the complete author list, methods, and current version. The <a href="{{ '/publications/' | relative_url }}">full bibliography</a> includes additional work.</p>
+</section>
+
 <section aria-labelledby="contributions-heading">
   <h2 id="contributions-heading">Selected contributions</h2>
   <div class="software-grid">

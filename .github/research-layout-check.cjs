@@ -2,7 +2,7 @@
 const fs = require("node:fs");
 const { Builder, By, Key } = require("selenium-webdriver");
 const chrome = require("selenium-webdriver/chrome");
-const routes = ["", "research/", "astrophysics/", "ai-agents/", "repositories/", "people/"];
+const routes = ["", "research/", "astrophysics/", "ai-agents/", "repositories/", "people/", "projects/"];
 const output = "layout-evidence";
 fs.mkdirSync(output, { recursive: true });
 const report = { source: process.env.GITHUB_SHA, observedAt: new Date().toISOString(), pages: [], errors: [] };
