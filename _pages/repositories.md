@@ -46,14 +46,14 @@ nav_order: 5
   {% for item in group.entries %}
     <article class="software-card">
       <p class="research-eyebrow">{{ item.role }}</p>
-      <h3><a href="{{ item.url }}">{{ item.name }}</a></h3>
+      <h3><a href="{% if item.detail_path %}{{ item.detail_path | relative_url }}{% else %}{{ item.url }}{% endif %}">{{ item.name }}</a></h3>
       <p>{{ item.purpose }}</p>
       <dl>
         <dt>Contribution</dt><dd>{{ item.contribution }}</dd>
         <dt>Connection</dt><dd>{{ item.connection }}</dd>
       </dl>
       <p class="software-status">{{ item.status }}</p>
-      <p class="software-links"><a href="{{ item.url }}">{{ item.link_label }} <span aria-hidden="true">↗</span></a>{% if item.related_url %}<a href="{{ item.related_url }}">{{ item.related_label }} <span aria-hidden="true">↗</span></a>{% endif %}</p>
+      <p class="software-links">{% if item.detail_path %}<a href="{{ item.detail_path | relative_url }}">Contribution overview</a>{% endif %}<a href="{{ item.url }}">{{ item.link_label }} <span aria-hidden="true">↗</span></a>{% if item.related_url %}<a href="{{ item.related_url }}">{{ item.related_label }} <span aria-hidden="true">↗</span></a>{% endif %}</p>
     </article>
   {% endfor %}
   </div>
@@ -64,5 +64,5 @@ nav_order: 5
   <h2>Credit, reuse, and contribution</h2>
   <p>Follow each project's source for its license, citation instructions, maintainers, and contribution process. A development fork is not evidence of upstream authorship. A public prototype is not evidence of adoption or validated science. These descriptions distinguish group contributions, collaborative work, and independently maintained upstream tools.</p>
   <p>AI agents help write code, organize evidence, and maintain documentation in parts of this ecosystem. Consult each project's provenance and review records; AI participation and publication do not establish independent validation. <a href="{{ '/publication-policy/' | relative_url }}">Our authorship and verification policy</a> explains the distinction.</p>
-  <p>Curated from public project documentation on 25 September 2026. Explore the <a href="{{ '/astrophysics/' | relative_url }}">science questions</a> and the <a href="{{ '/ai-agents/' | relative_url }}">agent and trust objectives</a> behind this work.</p>
+  <p>New nuclear-matter and hierarchical-population contributions reviewed on 9 November 2026; other entries retain the September 2026 review. Explore the <a href="{{ '/astrophysics/' | relative_url }}">science questions</a> and the <a href="{{ '/ai-agents/' | relative_url }}">agent and trust objectives</a> behind this work.</p>
 </aside>

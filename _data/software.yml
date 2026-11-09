@@ -1,4 +1,4 @@
-# Public contributions, curated from source READMEs on 2026-09-25.
+# Public contributions. NuclearMatter-Backend and hierarchical AD engine reviewed 2026-11-09; other entries retain their prior review dates.
 [
   {
     "id": "inference",
@@ -17,6 +17,19 @@
           "link_label": "Official source",
           "related_url": "https://github.com/oshaughn/research-projects-RIT",
           "related_label": "Development lineage",
+        },
+        {
+          "name": "Hierarchical AD population engine",
+          "role": "Differentiable population model",
+          "purpose": "Connect hierarchical black-hole merger physics and environment formation to a population rate distribution.",
+          "contribution": "A composable JAX response/formation model with a NumPyro and gwkokab interface, solver comparisons, and gradient checks.",
+          "connection": "Extends the group's coagulation-modeling work toward gradient-based population inference.",
+          "status": "Public research prototype; solver and retention limitations documented",
+          "url": "https://github.com/oshaughnessy-junior/hierarchical_AD_pop_engine",
+          "link_label": "Source & examples",
+          "detail_path": "/software/hierarchical-ad-pop-engine/",
+          "related_url": "https://arxiv.org/abs/1911.04424",
+          "related_label": "Scientific foundation",
         },
         {
           "name": "LISA-RIFT",
@@ -38,6 +51,19 @@
     "description": "Surrogates make expensive models usable; public samples make published analyses inspectable.",
     "entries":
       [
+        {
+          "name": "NuclearMatter-Backend",
+          "role": "Nuclear matter and neutron-star modeling",
+          "purpose": "Connect equations of state to stellar structure, tidal response, and inference interfaces.",
+          "contribution": "An extensible EOS/TOV toolkit with selected differentiable paths, RIFT adapters, laboratory-likelihood components, and documented reference comparisons.",
+          "connection": "Links nuclear microphysics and neutron-star observables; rotating and thermal modules extend the research program.",
+          "status": "Active research software; capabilities and validation limits documented",
+          "url": "https://github.com/oshaughnessy-junior/NuclearMatter-Backend",
+          "link_label": "Source & examples",
+          "detail_path": "/software/nuclear-matter-backend/",
+          "related_url": "https://github.com/oshaughnessy-junior/NuclearMatter-Backend/blob/main/ATTRIBUTION.md",
+          "related_label": "Methods & attribution",
+        },
         {
           "name": "Kilonova surrogates",
           "role": "Physical-model surrogate",

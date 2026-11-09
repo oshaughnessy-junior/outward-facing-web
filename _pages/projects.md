@@ -25,6 +25,14 @@ Recent group preprints examine [strong star–black-hole encounters in AGN disks
 
 Kilonova light-curve modeling connects merger ejecta to observations. See [Kedia and collaborators’ surrogate-model study](https://arxiv.org/abs/2211.04363) and the associated [models and data]({{ '/repositories/' | relative_url }}#models-data).
 
+## Dense matter and neutron-star structure
+
+[NuclearMatter-Backend]({{ '/software/nuclear-matter-backend/' | relative_url }}) connects nuclear equations of state to stellar structure, tidal deformability, and inference interfaces. Its contribution page covers the scientific foundations, implemented tools, reference comparisons, and cooling/rotation extensions.
+
+## Hierarchical merger populations
+
+The [hierarchical AD population engine]({{ '/software/hierarchical-ad-pop-engine/' | relative_url }}) connects merger environments and formation histories to a differentiable population model, building on [Doctor and collaborators’ coagulation framework](https://arxiv.org/abs/1911.04424).
+
 ## Experimental AI research workflows
 
 Our second lane investigates agent coordination, reproducibility, and evidence-linked review through public prototypes. See the [AI and agents lane]({{ '/ai-agents/' | relative_url }}) and [research-practice contribution overview]({{ '/research/' | relative_url }}#contributions-heading). Prototype status and scientific publication approval remain distinct.

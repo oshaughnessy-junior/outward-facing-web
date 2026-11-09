@@ -2,7 +2,17 @@
 const fs = require("node:fs");
 const { Builder, By, Key } = require("selenium-webdriver");
 const chrome = require("selenium-webdriver/chrome");
-const routes = ["", "research/", "astrophysics/", "ai-agents/", "repositories/", "people/", "projects/"];
+const routes = [
+  "",
+  "research/",
+  "astrophysics/",
+  "ai-agents/",
+  "repositories/",
+  "people/",
+  "projects/",
+  "software/hierarchical-ad-pop-engine/",
+  "software/nuclear-matter-backend/",
+];
 const output = "layout-evidence";
 fs.mkdirSync(output, { recursive: true });
 const report = { source: process.env.GITHUB_SHA, observedAt: new Date().toISOString(), pages: [], errors: [] };
@@ -46,8 +56,12 @@ const report = { source: process.env.GITHUB_SHA, observedAt: new Date().toISOStr
         })) {
           if (fail) report.errors.push({ route, width, check: name });
         }
-        if (route === "" || route === "research/") {
-          fs.writeFileSync(`${output}/${route ? "research" : "home"}-${width}.png`, await driver.takeScreenshot(), "base64");
+        if (route === "" || route === "research/" || route.startsWith("software/")) {
+          fs.writeFileSync(
+            `${output}/${route ? route.replace(/\/$/, "").replaceAll("/", "-") : "home"}-${width}.png`,
+            await driver.takeScreenshot(),
+            "base64"
+          );
         }
         if (width === 390 && route === "") {
           const menu = await driver.findElement(By.css(".navbar-toggler"));

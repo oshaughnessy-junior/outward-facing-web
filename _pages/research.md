@@ -66,6 +66,24 @@ permalink: /research/
   </div>
 </section>
 
+<section aria-labelledby="new-software-heading">
+  <h2 id="new-software-heading">Open software contributions</h2>
+  <div class="software-grid">
+    <article class="software-card">
+      <p class="research-eyebrow">Nuclear astrophysics / Inference</p>
+      <h3><a href="{{ '/software/nuclear-matter-backend/' | relative_url }}">NuclearMatter-Backend</a></h3>
+      <p>Interchangeable equations of state, neutron-star structure and tidal calculations, selected derivatives, and RIFT interfaces connect dense-matter models to inference. The contribution overview links scientific foundations, implementation, and scoped validation records.</p>
+      <p class="software-status">Research software · EOS, structure, and inference</p>
+    </article>
+    <article class="software-card">
+      <p class="research-eyebrow">Compact-binary populations / Differentiable models</p>
+      <h3><a href="{{ '/software/hierarchical-ad-pop-engine/' | relative_url }}">Hierarchical AD population engine</a></h3>
+      <p>A public JAX prototype composes merger-environment responses and formation histories into a population-rate distribution for gwkokab. The overview connects the implementation to the coagulation literature and explains solver and gradient limits.</p>
+      <p class="software-status">Research prototype · Public source and examples</p>
+    </article>
+  </div>
+</section>
+
 <section class="research-disclosure" aria-labelledby="collaboration-heading">
   <h2 id="collaboration-heading">Connect with the work</h2>
   <p>For academic colleagues, the <a href="{{ '/cv/' | relative_url }}">CV</a>, <a href="{{ '/publications/' | relative_url }}">bibliography</a>, and <a href="{{ '/people/' | relative_url }}">team and alumni</a> provide the wider research and mentoring context.</p>
