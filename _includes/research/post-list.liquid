@@ -1,8 +1,8 @@
 {% assign shown = 0 %}
 <div class="research-posts">
   {% for post in site.posts %}
-    {% assign lane = 'science' %}
-    {% if site.data.lane_posts.ai contains post.slug %}{% assign lane = 'ai' %}{% endif %}
+    {% capture lane %}{% include research/post-lane.liquid post=post %}{% endcapture %}
+    {% assign lane = lane | strip %}
     {% if lane == include.lane and post.external_source == null %}
       {% if include.limit == null or shown < include.limit %}
         <article class="research-post">

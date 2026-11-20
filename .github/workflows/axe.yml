@@ -22,7 +22,7 @@ env:
 jobs:
   check:
     # available images: https://github.com/actions/runner-images#available-images
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 15
     steps:
       - name: Checkout 🛎️
@@ -52,6 +52,9 @@ jobs:
           pip3 install --upgrade jupyter
           export JEKYLL_ENV=production
           bundle exec jekyll build
+      - name: Check publication lane routing
+        run: python3 tests/check_lane_output.py _site
+
       - name: Purge unused CSS 🧹
         run: |
           npm install -g purgecss

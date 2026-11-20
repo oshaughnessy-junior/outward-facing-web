@@ -1,0 +1,9 @@
+{%- if include.post.publication_lane == 'ai-research-infrastructure' -%}
+  ai
+{%- elsif include.post.publication_lane == 'astrophysics' -%}
+  science
+{%- elsif site.data.lane_posts.ai contains include.post.slug -%}
+  ai
+{%- else -%}
+  science
+{%- endif -%}

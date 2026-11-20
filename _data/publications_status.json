@@ -1,6 +1,6 @@
 {
-  "last_successful_refresh": "2026-11-06T09:02:26.294924+00:00",
-  "query": "author:O'Shaughnessy;since:2026-10-23",
-  "records_checked": ["2610.40144", "2610.40077", "2610.37895"],
-  "records_added": ["2610.40144", "2610.40077", "2610.37895"]
+  "last_successful_refresh": "2026-11-20T14:11:48.838144+00:00",
+  "query": "reviewed public metadata; explicit IDs",
+  "records_checked": ["2611.26534", "2610.40144", "2610.40077", "2610.37895", "2610.28775", "2610.20276", "2610.09199", "2610.07424", "2609.29969"],
+  "records_added": ["2611.26534", "2609.29969"]
 }
