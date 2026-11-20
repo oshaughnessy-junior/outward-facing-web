@@ -10,6 +10,7 @@ const routes = [
   "repositories/",
   "people/",
   "projects/",
+  "publications/",
   "software/hierarchical-ad-pop-engine/",
   "software/nuclear-matter-backend/",
 ];

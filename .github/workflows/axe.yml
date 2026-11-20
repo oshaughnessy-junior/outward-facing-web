@@ -54,6 +54,8 @@ jobs:
           bundle exec jekyll build
       - name: Check publication lane routing
         run: python3 tests/check_lane_output.py _site
+      - name: Check rendered bibliography links
+        run: python3 tests/check_bibliography_output.py _site
 
       - name: Purge unused CSS 🧹
         run: |
@@ -85,7 +87,7 @@ jobs:
           if [ -n "$AUDIT_PATH" ]; then
             urls=("http://localhost:8080/${AUDIT_PATH#/}")
           else
-            urls=(http://localhost:8080/ http://localhost:8080/research/ http://localhost:8080/astrophysics/ http://localhost:8080/ai-agents/ http://localhost:8080/repositories/ http://localhost:8080/people/ http://localhost:8080/projects/ http://localhost:8080/software/hierarchical-ad-pop-engine/ http://localhost:8080/software/nuclear-matter-backend/)
+            urls=(http://localhost:8080/ http://localhost:8080/research/ http://localhost:8080/astrophysics/ http://localhost:8080/ai-agents/ http://localhost:8080/repositories/ http://localhost:8080/people/ http://localhost:8080/projects/ http://localhost:8080/publications/ http://localhost:8080/software/hierarchical-ad-pop-engine/ http://localhost:8080/software/nuclear-matter-backend/)
           fi
           # Chrome's sandbox is unavailable in the ephemeral hosted runner.
           # Audit only this checkout's local static build.

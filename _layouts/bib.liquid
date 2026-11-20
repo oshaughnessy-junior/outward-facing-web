@@ -200,8 +200,13 @@
       {% if entry.doi %}
         <a href="https://doi.org/{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button">DOI</a>
       {% endif %}
-      {% if entry.arxiv %}
-        <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
+      {% assign arxiv_id = entry.arxiv %}
+      {% assign archive_prefix = entry.archiveprefix | default: entry.archivePrefix | downcase %}
+      {% if arxiv_id == blank and archive_prefix == 'arxiv' %}
+        {% assign arxiv_id = entry.eprint %}
+      {% endif %}
+      {% if arxiv_id != blank %}
+        <a href="https://arxiv.org/abs/{{ arxiv_id | escape }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
       {% endif %}
       {% if entry.hal %}
         <a href="https://hal.science/{{ entry.hal }}" class="btn btn-sm z-depth-0" role="button">HAL</a>
