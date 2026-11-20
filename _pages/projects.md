@@ -23,6 +23,8 @@ Recent group preprints examine [strong star–black-hole encounters in AGN disks
 
 ## Multimessenger models
 
+[Ristić and collaborators’ November 2026 preprint](https://arxiv.org/abs/2611.26534) presents accretion-disk simulations with neutrino transport and examines the outflow properties that enter kilonova modeling.
+
 Kilonova light-curve modeling connects merger ejecta to observations. See [Kedia and collaborators’ surrogate-model study](https://arxiv.org/abs/2211.04363) and the associated [models and data]({{ '/repositories/' | relative_url }}#models-data).
 
 ## Dense matter and neutron-star structure
