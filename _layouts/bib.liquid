@@ -117,7 +117,8 @@
         {%- endfor -%}
         {%- assign more_authors_show = more_authors_show | regex_replace: '([*∗†‡§¶‖&^]+)', '<sup>\1</sup>' -%}
         , and
-        <span
+        <button
+          type="button"
           class="more-authors"
           title="click to view {{ more_authors_hide }}"
           onclick="
@@ -134,7 +135,7 @@
           "
         >
           {{- more_authors_hide -}}
-        </span>
+        </button>
       {% endif %}
       {% if entry.annotation %}
         <i

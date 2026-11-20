@@ -57,7 +57,7 @@ const report = { source: process.env.GITHUB_SHA, observedAt: new Date().toISOStr
         })) {
           if (fail) report.errors.push({ route, width, check: name });
         }
-        if (route === "" || route === "research/" || route.startsWith("software/")) {
+        if (route === "" || route === "research/" || route === "publications/" || route.startsWith("software/")) {
           fs.writeFileSync(
             `${output}/${route ? route.replace(/\/$/, "").replaceAll("/", "-") : "home"}-${width}.png`,
             await driver.takeScreenshot(),
@@ -69,6 +69,13 @@ const report = { source: process.env.GITHUB_SHA, observedAt: new Date().toISOStr
           await menu.sendKeys(Key.ENTER);
           await driver.wait(async () => (await menu.getAttribute("aria-expanded")) === "true", 3000);
           page.keyboardMenuExpanded = true;
+        }
+        if (route === "publications/") {
+          const authors = await driver.findElement(By.css("button.more-authors"));
+          const before = await authors.getText();
+          await authors.sendKeys(Key.ENTER);
+          await driver.wait(async () => (await authors.getText()).length > before.length, 5000);
+          page.keyboardAuthorsExpanded = true;
         }
       }
     }
